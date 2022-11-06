@@ -1,4 +1,4 @@
-### 👋 Hello there!
+### 👋 Hello there! (somewhat dead account)
 
 My name is EvadeMaster on GitHub, a nerdy student from Thailand who started coding as a hobby!
 
