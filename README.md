@@ -2,6 +2,11 @@
 
 My name is EvadeMaster on GitHub, a nerdy student from Thailand who started coding as a hobby!
 
+![I can speak in English (GB)!](https://img.shields.io/badge/I%20can%20speak%20natively%20in-Thai-brightgreen)
+![I can speak natively in Thai!](https://img.shields.io/badge/I%20can%20speak%20in-English%20(GB)-yellow)
+
+Here are my favourite things to do!
+
 - 🎉 I like to add emojis to my commit.
 - 👀 I’m interested in Flutter projects.
 - ⏳ I like to code in Python during my free time.
