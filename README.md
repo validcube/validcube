@@ -2,8 +2,8 @@
 
 My name is EvadeMaster on GitHub, a nerdy student from Thailand who started coding as a hobby!
 
-![I can speak in English (GB)!](https://img.shields.io/badge/I%20can%20speak%20natively%20in-Thai-brightgreen)
-![I can speak natively in Thai!](https://img.shields.io/badge/I%20can%20speak%20in-English%20(GB)-yellow)
+![I can speak in English (GB)!](https://img.shields.io/badge/I%20can%20speak%20natively%20in-Thai-brightgreen "I can speak natively in Thai!")
+![I can speak natively in Thai!](https://img.shields.io/badge/I%20can%20speak%20in-English%20(GB)-yellow "I can speak in English (GB)!")
 
 Here are my favourite things to do!
 
