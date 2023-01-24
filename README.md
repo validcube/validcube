@@ -3,7 +3,7 @@
 > **Note** <br>
 > <br>
 > Thai (central) - ภาษาไทย - <br> ![I can speak natively in Thai!](https://img.shields.io/badge/I%20can%20speak%20natively%20in-Thai-brightgreen?style=for-the-badge "I can speak natively in Thai!") <br>
-> English - US & GB - <br> ![I can speak in English!](https://img.shields.io/badge/I%20can%20speak%20in-English-yellow?style=for-the-badge "I can speak in English!") 
+> English (US & GB) - *English (GB) Preferrably* <br> ![I can speak in English!](https://img.shields.io/badge/I%20can%20speak%20in-English-yellow?style=for-the-badge "I can speak in English!") 
 
 My name is EvadeMaster on GitHub, a nerdy student from Thailand who started coding as a hobby!
 
