@@ -13,7 +13,7 @@ Here are my favourite things to do!
 - 👀 I’m interested in Flutter projects.
 - ⏳ I like to code in Python during my free time.
 - 📜 I enjoy contributing to random stuff.
-- 🎨 I'm obsessed with color.
+- 🎨 I'm obsessed with colour.
 - 🗿 Moyai.
 
 I'm not fluent in English, but at least I tried!
