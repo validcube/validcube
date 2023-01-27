@@ -23,17 +23,25 @@ I'm not fluent in English, but at least I tried!
 <picture>
 <source 
   srcset="https://github-readme-stats.vercel.app/api?username=EvadeMaster&count_private=true&theme=dark"
-  srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=EvadeMaster&count_private=true&layout=compact"
   media="(prefers-color-scheme: dark)"
+  alt="EvadeMaster's GitHub stats"
+/>
+<source 
+  srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=EvadeMaster&count_private=true&layout=compact&theme=dark"
+  media="(prefers-color-scheme: dark)"
+  alt="EvadeMaster's Top languages stats"
+/>
+<source
+  srcset="https://github-readme-stats.vercel.app/api?username=EvadeMaster&count_private=true"
+  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   alt="EvadeMaster's GitHub stats"
 />
 <source
   srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=EvadeMaster&count_private=true&layout=compact"
-  srcset="https://github-readme-stats.vercel.app/api?username=EvadeMaster&count_private=true"
   media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   alt="EvadeMaster's Top languages stats"
 />
-<img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=EvadeMaster&count_private=true" />
 </picture>
 
 <!--
