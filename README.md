@@ -20,7 +20,19 @@ I'm not fluent in English, but at least I tried!
 
 ### Contribution
 
-[![EvadeMaster's GitHub stats](https://github-readme-stats.vercel.app/api?username=EvadeMaster&count_private=true&theme=transparent "EvadeMaster's GitHub stats")](https://github.com/anuraghazra/github-readme-stats) [![EvadeMaster's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=EvadeMaster&count_private=true&theme=transparent&layout=compact "EvadeMaster's Top languages stats")](https://github.com/anuraghazra/github-readme-stats)
+<picture>
+<source 
+  srcset="https://github-readme-stats.vercel.app/api?username=EvadeMaster&count_private=true&theme=dark"
+  media="(prefers-color-scheme: dark)"
+  alt="EvadeMaster's GitHub stats"
+/>
+<source
+  srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=EvadeMaster&count_private=true&layout=compact"
+  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  alt="EvadeMaster's Top languages stats"
+/>
+<img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
+</picture>
 
 <!--
 
