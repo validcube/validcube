@@ -26,16 +26,19 @@ I'm not fluent in English, but at least I tried!
   media="(prefers-color-scheme: dark)"
   alt="EvadeMaster's GitHub stats"
 />
-<source 
-  srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=EvadeMaster&count_private=true&layout=compact&theme=dark"
-  media="(prefers-color-scheme: dark)"
-  alt="EvadeMaster's Top languages stats"
-/>
 <source
   srcset="https://github-readme-stats.vercel.app/api?username=EvadeMaster&count_private=true"
   media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   alt="EvadeMaster's GitHub stats"
 />
+<img src="https://github-readme-stats.vercel.app/api?username=EvadeMaster&count_private=true" />
+</picture>
+
+<picture>
+<source 
+  srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=EvadeMaster&count_private=true&layout=compact&theme=dark"
+  media="(prefers-color-scheme: dark)"
+  alt="EvadeMaster's Top languages stats"
 <source
   srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=EvadeMaster&count_private=true&layout=compact"
   media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
@@ -43,7 +46,6 @@ I'm not fluent in English, but at least I tried!
 />
 <img src="https://github-readme-stats.vercel.app/api?username=EvadeMaster&count_private=true" />
 </picture>
-
 <!--
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis risus sed vulputate odio ut enim. Leo urna molestie at elementum eu. Mattis enim ut tellus elementum sagittis vitae et leo duis. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Amet risus nullam eget felis eget nunc. Mattis aliquam faucibus purus in massa tempor. Augue mauris augue neque gravida in fermentum et. Nisi est sit amet facilisis magna etiam tempor orci. In ante metus dictum at tempor commodo. Platea dictumst quisque sagittis purus sit amet.
