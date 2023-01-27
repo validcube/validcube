@@ -44,7 +44,7 @@ I'm not fluent in English, but at least I tried!
   media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   alt="EvadeMaster's Top languages stats"
 />
-<img src="https://github-readme-stats.vercel.app/api?username=EvadeMaster&count_private=true" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EvadeMaster&count_private=true&layout=compact" />
 </picture>
 <!--
 
