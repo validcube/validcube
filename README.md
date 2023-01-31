@@ -20,7 +20,7 @@ I'm not fluent in English, but at least I tried!
 
 ### Contribution
 
-<img src="https://github.com/EvadeMaster/EvadeMaster/blob/main/metrics.classic.svg" />
+<img src="metrics.classic.svg" />
 
 
 <!--
