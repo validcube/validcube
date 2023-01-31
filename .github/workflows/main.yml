@@ -8,10 +8,13 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-    - name: Metrics embed
+    - name: Recent activity
       uses: lowlighter/metrics@latest
       with:
         filename: metrics.classic.svg
         token: ${{ secrets.METRICS_TOKEN }}
-        base: header, repositories
-        plugin_lines: yes
+        base: ""
+        plugin_activity: yes
+        plugin_activity_limit: 10
+        plugin_activity_days: 7
+        plugin_activity_filter: all
