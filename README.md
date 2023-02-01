@@ -1,9 +1,10 @@
 ### 👋 Hello there! (this is somewhat dead account)
 
-> **Note** <br>
-> <br>
-> Thai (central) - ภาษาไทย - <br> ![I can speak natively in Thai!](https://img.shields.io/badge/I%20can%20speak%20natively%20in-Thai-brightgreen?style=for-the-badge "I can speak natively in Thai!") <br>
-> English (US & GB) - *English (GB) Preferably* <br> ![I can speak in English!](https://img.shields.io/badge/I%20can%20speak%20in-English-yellow?style=for-the-badge "I can speak in English!") 
+> **Warning** <br>
+> I will be recovering my mental health, I will now be currently inactive until Feb 16th, 2023.
+
+![I can speak natively in Thai!](https://img.shields.io/badge/I%20can%20speak%20natively%20in-Thai-brightgreen?style=for-the-badge "I can speak natively in Thai!")
+![I can speak in English!](https://img.shields.io/badge/I%20can%20speak%20in-English-yellow?style=for-the-badge "I can speak in English!") 
 
 My name is EvadeMaster on GitHub, a nerdy student from Thailand who started coding as a hobby!
 
