@@ -1,7 +1,13 @@
 ### 👋 Hello there! (this is somewhat dead account)
 
 > **Warning** <br>
-> I will be recovering my mental health, I will now be currently inactive until Feb 16th, 2023.
+> I will now be currently inactive until around Feb 16th, 2023.
+> <br>
+> 
+> Scheduled inactivity: <br>
+> Feb 1st 2023 - Feb 4th 2023 <br>
+> Feb 7th 2023 - Feb 12th 2023 <br>
+> Feb 14th 2023
 
 ![I can speak natively in Thai!](https://img.shields.io/badge/I%20can%20speak%20natively%20in-Thai-brightgreen?style=for-the-badge "I can speak natively in Thai!")
 ![I can speak in English!](https://img.shields.io/badge/I%20can%20speak%20in-English-yellow?style=for-the-badge "I can speak in English!") 
