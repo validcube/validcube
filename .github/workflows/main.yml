@@ -1,5 +1,5 @@
 
-name: 👷 Metrics
+name: 👷 Update Contribution Metrics
 on:
   schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
@@ -22,6 +22,6 @@ jobs:
         plugin_languages_indepth: yes
         plugin_languages_details: lines, bytes-size
         plugin_activity: yes
-        plugin_activity_limit: 10
+        plugin_activity_limit: 5
         plugin_activity_days: 7
         plugin_activity_filter: all
