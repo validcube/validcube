@@ -1,13 +1,5 @@
 ### 👋 Hello there! (this is somewhat dead account)
 
-> **Warning** <br>
-> I will now be currently inactive until around Feb 16th, 2023.
-> <br>
-> 
-> Scheduled inactivity: <br>
-> Feb 7th 2023 - Feb 12th 2023 <br>
-> Feb 14th 2023
-
 ![I can speak natively in Thai!](https://img.shields.io/badge/I%20can%20speak%20natively%20in-Thai-brightgreen?style=for-the-badge "I can speak natively in Thai!")
 ![I can speak in English!](https://img.shields.io/badge/I%20can%20speak%20in-English-yellow?style=for-the-badge "I can speak in English!") 
 
@@ -23,6 +15,14 @@ Here are my favourite things to do!
 - 🗿 Moyai.
 
 I'm not fluent in English, but at least I tried!
+
+### ReVanced
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="ReVancedManager/dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="ReVancedManager/light.png">
+  <img alt="ReVanced Manager." src="ReVancedManager/light.png">
+</picture>
 
 ### Contribution
 
