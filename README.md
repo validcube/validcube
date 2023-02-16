@@ -19,9 +19,9 @@ I'm not fluent in English, but at least I tried!
 ### ReVanced
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="ReVancedManager/dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="ReVancedManager/light.png">
-  <img alt="ReVanced Manager." src="ReVancedManager/light.png">
+  <a target="_blank" href="https://github.com/revanced/revanced-manager"><source media="(prefers-color-scheme: dark)" srcset="ReVancedManager/dark.png">
+  <a target="_blank" href="https://github.com/revanced/revanced-manager"><source media="(prefers-color-scheme: light)" srcset="ReVancedManager/light.png">
+  <img alt="ReVanced Manager" src="ReVancedManager/light.png">
 </picture>
 
 ### Contribution
