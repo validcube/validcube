@@ -3,13 +3,13 @@
 ![I can speak natively in Thai!](https://img.shields.io/badge/I%20can%20speak%20natively%20in-Thai-brightgreen?style=for-the-badge "I can speak natively in Thai!")
 ![I can speak in English!](https://img.shields.io/badge/I%20can%20speak%20in-English-yellow?style=for-the-badge "I can speak in English!") 
 
-My name is EvadeMaster on GitHub, a 14-year-old nerdy student from Thailand who started coding as a hobby! I started programming when I nine; I was always fascinated by the world of computing; I first learned Lua on Roblox ~~(which I still suck as of right now)~~ then JavaScript & Python, and now Kotlin & Dart! I like to make every website & application more accessible to everyone because there are people who use their devices not the same as us. I also do some graphic designing and coding during my free time, also contribute to the project!
+My name is EvadeMaster on GitHub, and I'm a 14-year-old nerdy student from Thailand who started coding as a hobby. I began programming when I was nine, and I've always been fascinated by the world of computing. I first learned Lua on Roblox (which I still struggle with as of right now), then moved on to JavaScript and Python, and now I'm learning Kotlin and Dart. I enjoy making websites and applications more accessible to everyone, because there are people who use their devices differently than we do. In my free time, I also do graphic design and coding, and I like to contribute to projects.
 
 I'm not fluent in English, but at least I tried!
 
 
 ### ReVanced Manager (Dart)
-ReVanced Manager is an application written in `Dart (Flutter)`, this application is mainly used for patching, and/or modifying your favourite applications like YouTube, YouTube Music, Instagram, and many more! (see https://dev.revanced.app/patches)
+ReVanced Manager is an application written in Dart (Flutter). This application is mainly used for patching and/or modifying your favorite applications like YouTube, YouTube Music, Instagram, and many more! (see https://dev.revanced.app/patches)
 
 <picture>
   <a target="_blank" href="https://github.com/revanced/revanced-manager"><source media="(prefers-color-scheme: dark)" srcset="ReVancedManager/dark.png">
