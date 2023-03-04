@@ -12,9 +12,9 @@ I'm not fluent in English, but at least I tried!
 ReVanced Manager is an application written in Dart (Flutter). This application is mainly used for patching and/or modifying your favorite applications like YouTube, YouTube Music, Instagram, and many more! (see https://dev.revanced.app/patches)
 
 <picture>
-  <a target="_blank" href="https://github.com/revanced/revanced-manager"><source media="(prefers-color-scheme: dark)" srcset="ReVancedManager/dark.png">
-  <a target="_blank" href="https://github.com/revanced/revanced-manager"><source media="(prefers-color-scheme: light)" srcset="ReVancedManager/light.png">
-  <img alt="ReVanced Manager" src="ReVancedManager/light.png">
+  <a target="_blank" href="https://github.com/revanced/revanced-manager"><source media="(prefers-color-scheme: dark)" srcset="Rassets\ReVancedManager\default-dark.png">
+  <a target="_blank" href="https://github.com/revanced/revanced-manager"><source media="(prefers-color-scheme: light)" srcset="assets\ReVancedManager\default-light.png">
+  <img alt="ReVanced Manager" src="assets\ReVancedManager\default-light.png">
 </picture>
     
 *2 Fonts were used in this banner [Open Sauce](https://github.com/marcologous/Open-Sauce-Fonts) & [Open Sans](https://github.com/googlefonts/opensans), ReVanced logo is used in this banner and adhere to [ReVanced's Branding guidelines](https://github.com/revanced/revanced-branding/tree/dev)*.
