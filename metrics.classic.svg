@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="833" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1150" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}#metrics-end,.fill-width{width:100%}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details,.field.language.details small{display:flex;justify-content:space-between}.field.language.details small{color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}#metrics-end,.fill-width{width:100%}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details,.field.language.details small{display:flex;justify-content:space-between}.field.language.details small{color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.added{color:#3fb950}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -114,12 +114,12 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 74 commits)</small>
+                    <small class="h-details">(computed from last 75 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 35.7 characters per line of code written</li>
+                        <li>Has approximately 34.8 characters per line of code written</li>
                         <li>Mostly pushes code around 18:00</li>
                         <li>Mostly active on Sunday</li>
                     </ul>
@@ -134,6 +134,362 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 107 commits in
+                                        <span class="repo">EvadeMaster/lawnicons</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">develop</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#9f2c378</div>
+                                        <div class="message">Add 4 new icons (#1014)
+
+* Add Citi
+
+* link samsung digital wellbeing
+
+* add textra
+
+* Add shareme
+
+* Add moodle
+
+* Add mobikwik
+
+* Add Free and Flasher
+
+* Add Zepto and bigbasket
+
+* Add coinDCX
+
+* Update grayscale_icon_map.xml
+
+* Fixed review comments
+
+* Update flasher.svg
+
+* Update flasher.xml
+
+* Removed Calendar Icons
+
+* Add freecharge,blackberry and few more
+
+* fix typo
+
+* Update content size to 144 for square
+
+* Update flipkart.svg
+
+* Update flipkart.xml
+
+* fix monochrome size issue
+
+* fix monochrome size issue
+
+* add icon request and irctc icons
+
+* fix review commnets
+
+* Add mapping for lawnicons light
+
+* Iconpack core (#3)
+
+* format code
+
+* remove extra line
+
+* Fix monochrome icon size
+
+* Background from true black to grey color
+
+* Remove changes related to varient
+
+* Update on workflow file
+
+* Add new icons
+
+* Add Many mapping
+
+* Add Mapping to 12 club
+
+* Arrange alphabetical order
+
+* change size to 192
+
+* remove vaccation days drawable
+
+* removed cookbook
+
+* link cookbook
+
+* update generic_silverware drawable
+
+* fix olx icon size
+
+* update size of logo
+
+---------
+
+Co-authored-by: Patryk Radziszewski &lt;100310118+Chefski@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#181a032</div>
+                                        <div class="message">chore(deps): update plugin com.gradle.enterprise to v3.12.3 (#1013)
+
+Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#1df4554</div>
+                                        <div class="message">Add Student Beans (#1015)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d180aca</div>
+                                        <div class="message">Fix Uber Eats Orders (#1012)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#5c3a49f</div>
+                                        <div class="message">Auto categorize Icons and added Static calendars  (#1007)
+
+* Add new icon links
+
+* Static calendars for unsupported laucnchers
+
+* Auto categorize drawables
+
+* format code</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#4a6f948</div>
+                                        <div class="message">Enhancement on icon pack  (#996)
+
+* Add Citi
+
+* link samsung digital wellbeing
+
+* add textra
+
+* Add shareme
+
+* Add moodle
+
+* Add mobikwik
+
+* Add Free and Flasher
+
+* Add Zepto and bigbasket
+
+* Add coinDCX
+
+* Update grayscale_icon_map.xml
+
+* Fixed review comments
+
+* Update flasher.svg
+
+* Update flasher.xml
+
+* Removed Calendar Icons
+
+* Add freecharge,blackberry and few more
+
+* fix typo
+
+* Update content size to 144 for square
+
+* Update flipkart.svg
+
+* Update flipkart.xml
+
+* fix monochrome size issue
+
+* fix monochrome size issue
+
+* add icon request and irctc icons
+
+* fix review commnets
+
+* Add mapping for lawnicons light
+
+* Iconpack core (#3)
+
+* format code
+
+* remove extra line
+
+* Fix monochrome icon size
+
+* Background from true black to grey color
+
+* Remove changes related to varient
+
+* Update on workflow file
+
+---------
+
+Co-authored-by: Patryk Radziszewski &lt;100310118+Chefski@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3a0b2b3</div>
+                                        <div class="message">Add Uber Eats Manager + Uber Eats Orders (#1009)
+
+* Add Uber Eats Manager
+
+* Add Uber Eats Orders
+
+* Minify SVGs</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#b1747c0</div>
+                                        <div class="message">Added 10 new Icons (#1008)
+
+* Add Icon for Obtainium
+
+* Add Icon for Pigments
+
+* Add Icon for PikPak
+
+* Add Icon for Saikou β
+
+* Add Icon for mpv android
+
+* Add Icon for FolderSync Pro/Lite
+
+* Add Icon for AnyTracker
+
+* Add Icon for Thanox Pro/Free
+
+* Add Icon for ClevNote
+
+* Add Icon for Reminder Pro/Free
+
+* Revert "Add Icon for ClevNote"
+
+This reverts commit fb51a3a62d55030f8b2d82cd998e79b192cb3edd.
+
+* Cleanup and tweak ClevNote Icon</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#09953fb</div>
+                                        <div class="message">Adds Dolphin Emulator (#991)
+
+* Add dolphin svg
+
+* rename file
+
+* add dolphin
+
+* Relink a few apps
+
+* Update dolphin_emulator.svg
+
+* Adjust size
+
+---------
+
+Co-authored-by: Patryk Radziszewski &lt;100310118+Chefski@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#e7c5124</div>
+                                        <div class="message">Add Uber, Uber Eats &amp; Uber Driver (#1006)
+
+* Add Uber and Uber Eats
+
+* Add Uber Driver</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d0e1486</div>
+                                        <div class="message">Add UnApp, new links and minify SVGs (#1004)
+
+* Add UnApp and Sleep tracking app links
+
+* Minify some SVGs
+
+* Add links to generic_downloader
+
+* Minify more SVGs
+
+* Add name attribute</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#1415f6c</div>
+                                        <div class="message">Add 4 Google icons (#1003)
+
+* Add 4 Google icons
+
+* Return Jakojade
+
+* Fix link</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#5771081</div>
+                                        <div class="message">Fix office_suite</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3be66de</div>
+                                        <div class="message">Added 4 new Icons &amp; 1 Updated (#1000)
+
+* Add Icon for Gallery By WSTxda
+
+* Update Icon for Google App
+
+* Add Icon for Simple Social App
+
+* Add Icon for OfficeSuite
+
+* Add Icon for Open Link With
+
+* Revert "Update Icon for Google App"
+
+This reverts commit 1565c002739ea0f8663242f0c5df43b29443c588.
+
+* Size correction Gallery WSTxda
+
+* Size correction OfficeSuite
+
+* Icon adjustment (OpenLinkWith) rounded corners at trim ends.
+
+* Change artboard size and minor tweaks
+
+---------
+
+Co-authored-by: Patryk Radziszewski &lt;100310118+Chefski@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3e67bfe</div>
+                                        <div class="message">Add new icon links (#1002)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#24a3d52</div>
+                                        <div class="message">Update appfilter.xml (#1001)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#2c09467</div>
+                                        <div class="message">fix(deps): update dependency androidx.compose.material3:material3 to v1.1.0-alpha05 (#999)
+
+Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#e6114db</div>
+                                        <div class="message">removed unused resources (#997)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#556c15c</div>
+                                        <div class="message">Add PhotoScan (#998)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#5a5756b</div>
+                                        <div class="message">Link Aves gallery's icon to its libre counterpart of F-Droid (#993)</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -353,44 +709,6 @@ Commits:
 * chore: correct typos `fragement` to `fragment`
 
 * chore: put a single newline at end of file.</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">revanced/revanced-manager</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">dev</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#92a3b0d</div>
-                                        <div class="message">feat(style): use native switch &amp; chip (#732)
-
-* chore: remove useless themedata
-
-* feat(style): new switch
-
-* feat(style): use native chip components
-
-* chore: remove unused import
-
-* feat(accessibility): set tooltip
-
-* chore: remove unneeded themedata
-
-* chore: fix theme
-
-* feat(i18n): add 3 new strings
-
-* feat(style): correct material 3 theme on nondynamic</div>
                                     </div>
                                 </div>
                             </section>
