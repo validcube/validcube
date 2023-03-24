@@ -1,4 +1,11 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="Rassets\Personal\default-light.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets\Personal\default-light.png">
+  <img alt="Personal" src="assets\Personal\default-light.png">
+</picture>
+
 ### 👋 Hello there!
+
 
 ![I can speak natively in Thai!](https://img.shields.io/badge/I%20can%20speak%20natively%20in-Thai-brightgreen?style=for-the-badge "I can speak natively in Thai!")
 ![I can speak in English!](https://img.shields.io/badge/I%20can%20speak%20in-English-yellow?style=for-the-badge "I can speak in English!") 
