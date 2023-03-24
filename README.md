@@ -16,7 +16,7 @@ I'm not fluent in English, but at least I tried!
 
 
 ### ReVanced Manager (Dart)
-ReVanced Manager is an application written in Dart (Flutter). This application is mainly used for patching and/or modifying your favorite applications like YouTube, YouTube Music, Instagram, and many more! (see https://dev.revanced.app/patches)
+ReVanced Manager is an application written in Dart (Flutter). This application is mainly used for patching and/or modifying your favorite applications like YouTube, YouTube Music, Instagram, and many more! (see https://github.com/revanced/revanced-patches#-patches)
 
 <picture>
   <a target="_blank" href="https://github.com/revanced/revanced-manager"><source media="(prefers-color-scheme: dark)" srcset="Rassets\ReVancedManager\default-dark.webp">
