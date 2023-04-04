@@ -24,9 +24,14 @@ ReVanced Manager is an application written in Dart (Flutter). This application i
   <img alt="ReVanced Manager" src="assets\ReVancedManager\default-light.webp">
 </picture>
     
-*2 Fonts were used in this banner [Open Sauce](https://github.com/marcologous/Open-Sauce-Fonts) & [Open Sans](https://github.com/googlefonts/opensans), ReVanced logo is used in this banner and adhere to [ReVanced's Branding guidelines](https://github.com/revanced/revanced-branding)*.
-    
-> **Note** Some holiday-themed banner might not adhere to [ReVanced's Branding guidelines](https://github.com/revanced/revanced-branding).
+<details>
+<summary>Details about the banner</summary>
+  
+Fonts: [Open Sauce](https://github.com/marcologous/Open-Sauce-Fonts) & [Open Sans](https://github.com/googlefonts/opensans), ReVanced logo is used in this banner.
+
+Theme: `Default` <br>
+</details>
+  
 ### Contribution
 
 <img src="metrics.classic.svg" />
