@@ -5,9 +5,10 @@ on:
   workflow_dispatch:
   push: {branches: ["main"]}
 jobs:
-  self-hosted:
-    name: 🪸 Update Contribution Metrics - Self-hosted
-    runs-on: [self-hosted, linux, low-power]
+  githuh-actions:
+    name: 🪸 Update Contribution Metrics - GitHub Actions
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
     - name: Activity
       uses: lowlighter/metrics@latest
@@ -22,10 +23,10 @@ jobs:
         plugin_languages: yes
         plugin_languages_indepth: yes
         plugin_languages_details: lines, bytes-size
-  githuh-actions:
-    name: 🪸 Update Contribution Metrics - GitHub Actions
-    if: ${{ failure() }}
-    runs-on: ubuntu-latest
+  self-hosted:
+    name: 🪸 Update Contribution Metrics - Self-hosted
+    runs-on: [self-hosted, linux, low-power]
+    timeout-minutes: 5
     steps:
     - name: Activity
       uses: lowlighter/metrics@latest
