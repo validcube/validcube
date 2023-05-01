@@ -1,6 +1,5 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="Rassets\Personal\default-light.webp">
-  <source media="(prefers-color-scheme: light)" srcset="assets\Personal\default-light.webp">
   <img alt="Personal" src="assets\Personal\default-light.webp">
 </picture>
 
