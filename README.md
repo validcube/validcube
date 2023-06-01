@@ -9,9 +9,9 @@
 ![I can speak natively in Thai!](https://img.shields.io/badge/I%20can%20speak%20natively%20in-Thai-brightgreen?style=for-the-badge "This user can speak natively in Thai!")
 ![I can speak in English!](https://img.shields.io/badge/I%20can%20speak%20in-English-yellow?style=for-the-badge "This user can speak in English!") 
 
-a random student from Thailand. I'm mysterious although you can see my poo English in old revision of this README. In my free time I like to contribute to projects.
+My name is Pun, I'm a student from Thailand, and maintainer of open source software. I have quite decent experiences in mobile application development using Kotlin & Dart. I loves to write random program, and contribute to open source projects during my free time. I sometimes create program for my personal use, although most of them aren't production-ready.
 
-***README revision: 3***
+> **Note**: every banner created below here aren't official
 
 ### ReVanced Manager (Dart)
 ReVanced Manager is an application written in Dart (Flutter). This application is mainly used for patching and/or modifying your favorite applications like YouTube, YouTube Music, Instagram, and many more! (see https://github.com/revanced/revanced-patches#-patches)
@@ -20,14 +20,6 @@ ReVanced Manager is an application written in Dart (Flutter). This application i
   <source media="(prefers-color-scheme: dark)" srcset="assets\ReVancedManager\default-dark.webp">
   <img alt="Unofficial banner of ReVanced Manager" src="assets\ReVancedManager\default-light.webp">
 </picture>
-    
-<details>
-<summary>Details about the banner</summary>
-  
-Fonts: [Open Sauce](https://github.com/marcologous/Open-Sauce-Fonts) & [Open Sans](https://github.com/googlefonts/opensans), ReVanced logo is used in this banner.
-
-Theme: `Default` <br>
-</details>
   
 ### Contribution
 
