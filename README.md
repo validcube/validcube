@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets\Personal\default-light.webp">
-  <img alt="Personal" src="assets\Personal\default-light.webp">
+  <img alt="" src="assets\Personal\default-light.webp">
 </picture>
 
 ### 👋 Hello there!
@@ -12,7 +12,7 @@ ReVanced Manager is an application written in Dart (Flutter). This application i
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets\ReVancedManager\default-dark.webp">
-  <img alt="Unofficial banner of ReVanced Manager" src="assets\ReVancedManager\default-light.webp">
+  <img alt="" src="assets\ReVancedManager\default-light.webp">
 </picture>
   
 ### Contribution
