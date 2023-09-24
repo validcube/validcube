@@ -5,10 +5,6 @@
 
 ### 👋 Hello there!
 
-
-![I can speak natively in Thai!](https://img.shields.io/badge/I%20can%20speak%20natively%20in-Thai-brightgreen?style=for-the-badge "This user can speak natively in Thai!")
-![I can speak in English!](https://img.shields.io/badge/I%20can%20speak%20in-English-yellow?style=for-the-badge "This user can speak in English!") 
-
 My name is Pun, I'm a student from Thailand, and maintainer of open source software. I have quite decent experiences in mobile application development using Kotlin & Dart. I loves to write random program, and contribute to open source projects during my free time. I sometimes create program for my personal use, although most of them aren't production-ready.
 
 ### ReVanced Manager (Dart)
