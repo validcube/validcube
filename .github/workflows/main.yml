@@ -12,11 +12,6 @@ jobs:
     permissions:
       contents: write
     steps:
-    - name: Import GPG key
-      run: |
-        echo "$GPG_KEY" | gpg --batch --import
-      env:
-        GPG_KEY: ${{ secrets.COLLISIONBOT_SIGN }}
     - name: Activity
       uses: lowlighter/metrics@latest
       with:
@@ -42,6 +37,11 @@ jobs:
         plugin_languages_sections: most-used
         plugin_languages_threshold: 0%
         repositories_forks: yes
+    - name: Import GPG key
+      run: |
+        echo "$GPG_KEY" | gpg --batch --import
+      env:
+        GPG_KEY: ${{ secrets.COLLISIONBOT_SIGN }}
     - name: Push
       run: |
         echo '#!/bin/bash' >> $GITHUB_WORKSPACE/gpg.sh
