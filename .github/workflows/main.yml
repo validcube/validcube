@@ -9,18 +9,50 @@ jobs:
     name: 🪸 Update Contribution Metrics - GitHub Actions
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    permissions:
+      contents: write
     steps:
+    - name: Import GPG key
+      run: |
+        echo "$GPG_KEY" | gpg --batch --import
+      env:
+        GPG_KEY: ${{ secrets.COLLISIONBOT_SIGN }}
     - name: Activity
       uses: lowlighter/metrics@latest
       with:
-        filename: metrics.classic.svg
+        output_action: none
+        filename: metrics.svg
         token: ${{ secrets.METRICS_TOKEN }}
+        user: validcube
+        template: terminal
         base: ""
-        plugin_habits: yes
-        plugin_habits_facts: yes
-        plugin_habits_charts: yes
+        base_indepth: yes
+        config_octicon: yes
         config_timezone: Asia/Bangkok
         plugin_languages: yes
+        plugin_languages_analysis_timeout: 15
+        plugin_languages_analysis_timeout_repositories: 7.5
+        plugin_languages_categories: markup, programming
+        plugin_languages_colors: github
         plugin_languages_indepth: yes
-        plugin_languages_details: lines, bytes-size
-
+        plugin_languages_limit: 8
+        plugin_languages_recent_categories: markup, programming
+        plugin_languages_recent_days: 14
+        plugin_languages_recent_load: 300
+        plugin_languages_sections: most-used
+        plugin_languages_threshold: 0%
+        repositories_forks: yes
+    - name: Push
+      run: |
+        echo '#!/bin/bash' >> $GITHUB_WORKSPACE/gpg.sh
+        echo 'gpg --batch --pinentry-mode=loopback --passphrase $GPG_KEY_PASSPHRASE $@' >> $GITHUB_WORKSPACE/gpg.sh
+        chmod +x $GITHUB_WORKSPACE/gpg.sh
+        git config gpg.program $GITHUB_WORKSPACE/gpg.sh
+        git config --global user.email "pun.experiment@gmail.com"
+        git config --global user.name "CollisionBot"
+        git config user.signingkey 13D0B11B631937DE
+        git add metrics.svg
+        git commit -S -m "🔧 Update metric stat"
+        git push
+      env: 
+        GPG_KEY_PASSPHRASE: ${{ secrets.COLLISIONBOT_PASS }}
