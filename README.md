@@ -15,9 +15,9 @@ ReVanced Manager is an application written in Dart (Flutter). This application i
   <img alt="" src="assets\ReVancedManager\default-light.webp">
 </picture>
   
-### Contribution
+### Statistics
 
-<img src="metrics.classic.svg"/>
+<img alt="" src="metrics.svg"/>
 
 
 <!--
