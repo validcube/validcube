@@ -4,7 +4,6 @@
 </picture>
 
 ### 👋 Hello there!
-
 My name is Pun, I'm a student from Thailand, and maintainer of open source software. I have quite decent experiences in mobile application development using Kotlin & Dart. I loves to write random program, and contribute to open source projects during my free time. I sometimes create program for my personal use, although most of them aren't production-ready.
 
 ### ReVanced Manager (Dart)
