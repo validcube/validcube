@@ -8,6 +8,9 @@ on:
       - "requirements.txt"
       - "dev-requirements.txt"
       - ".github/workflows/python.yml"
+  push:
+    paths:
+      - "**.py"
 
 permissions:
   contents: read
