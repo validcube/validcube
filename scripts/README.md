@@ -1,7 +1,13 @@
-# `> Image manipulation`
+# `> Image_manipulation`
 Python script that's mostly used for image manipulation
 
-Support down to Python 3.9
+| Python version | Support status    |
+| -------------- | ----------------- |
+| 3.12           | ✅ Supported      |
+| 3.11           | ✅ Supported      |
+| 3.10           | ✅ Supported      |
+| 3.9            | ✅ Supported      |
+| 3.8            | ⚙️ Best effort    |
 
 ## `> Image // Contributing`
 
@@ -22,7 +28,7 @@ Developing the script:
 5. Test the script: `pytest`
 
 > [!WARNING]  
-> Ruff is a linter made using Rust, it's super fast, don't fall for it!
+> Ruff is a linter made using Rust, it's super fast and doesn't output anything if everything passes, don't fall for it!
 
 Here are some tip when contributing:
 * All commits must follows the [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) guidelines.
