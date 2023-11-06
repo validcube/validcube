@@ -120,33 +120,3 @@ def export_to_webp(
   image.save(output_file_path, format)
   assert os.path.exists(output_file_path)
   print(f"🥞 Image saved to {output_file_path}")
-
-
-#input_file_path = "test_input.png"
-#
-## Configurable parameters
-#margin_size     = 16
-#corner_radius   = 16
-#glow_color      = (0, 0, 0)
-#max_alpha       = 0.5
-#blur_radius     = 33
-#padding         = 50
-#
-#img = Image.open(input_file_path)
-#
-#img_rounded_corners = round_corners(
-#  img=img, 
-#  corner_radius=corner_radius
-#)
-#img_with_soft_glow = add_glow(
-#  img_rounded_corners, 
-#  glow_color=glow_color, 
-#  max_alpha=max_alpha, 
-#  blur_radius=blur_radius, 
-#  padding=padding
-#)
-##img_with_border = add_margin(
-##  img=img_with_shadow, 
-##  margin_size=margin_size
-##)
-#export_to_webp(img_with_soft_glow, "test_output.webp")
