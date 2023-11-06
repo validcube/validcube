@@ -15,15 +15,24 @@ ReVanced Manager is an application written in Dart (Flutter). This application i
 </picture>
 
 ## 💖 Participated in
-Hacktoberfest 2023:
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://ziadoua.github.io/m3-Markdown-Badges/badges/Hacktoberfest2023/hacktoberfest20231.svg">
-  <img alt="" src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Hacktoberfest2023/hacktoberfest20233.svg">
+  <img alt="Hacktoberfest 2023" src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Hacktoberfest2023/hacktoberfest20233.svg">
 </picture>
 
-<!--
+## 🥞 Miscellaneous
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis risus sed vulputate odio ut enim. Leo urna molestie at elementum eu. Mattis enim ut tellus elementum sagittis vitae et leo duis. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Amet risus nullam eget felis eget nunc. Mattis aliquam faucibus purus in massa tempor. Augue mauris augue neque gravida in fermentum et. Nisi est sit amet facilisis magna etiam tempor orci. In ante metus dictum at tempor commodo. Platea dictumst quisque sagittis purus sit amet.
+<details>
+  
+  <summary>❤️ Special Thanks</summary>
 
--->
+  ReVanced Branding:
+  https://github.com/ReVanced/revanced-branding @ GPL-3.0
+
+  Image Manipulation Tool:
+  https://github.com/validcube/validcube/tree/main/scripts @ None
+  
+  Hacktoberfest 2023 Badge:
+  https://github.com/ziadOUA/m3-Markdown-Badges @ MIT
+
+</details>
