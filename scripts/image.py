@@ -10,14 +10,14 @@ def add_margin(
 ) -> Image.Image:
   """Add margin to the input image.
 
-  #### Args:
+  #### ⚙️ Args:
     input_file_path: The path of the input image file.
     margin_size: The size of the margin to be added.
 
-  #### Returns:
+  #### ↪️ Returns:
     The image with added margin.
   
-  #### Raises:
+  #### 🚧 Raises:
     ValueError: If the margin size is not greater than 0.
   """
   if margin_size <= 0:
@@ -35,14 +35,14 @@ def round_corners(
 ) -> Image.Image:
   """Add rounded corners to the input image.
 
-  #### Args:
+  #### ⚙️ Args:
     img: The input image.
     corner_radius: The radius of the rounded corners.
 
-  #### Returns:
+  #### ↪️ Returns:
     The image with rounded corners.
   
-  #### Raises:
+  #### 🚧 Raises:
     ValueError: If the corner radius is not greater than 0.
   """
   if corner_radius <= 0:
@@ -74,14 +74,14 @@ def add_glow(
 ) -> Image.Image:
   """Add glow effect to the input image.
 
-  #### Args:
+  #### ⚙️ Args:
     img: The input image.
     glow_color: The color of the glow in RGB format.
     max_alpha: The maximum alpha value of the glow color.
     blur_radius: The radius of the blur effect for the glow.
     padding: The number of pixels to add to each dimension of the image.
 
-  #### Returns:
+  #### ↪️ Returns:
     The image with added glow.
   """
   new_size = (img.size[0] + padding, img.size[1] + padding)
@@ -112,7 +112,7 @@ def export_to_webp(
   ) -> None:
   """Export the input image in WebP format.
 
-  #### Args:
+  #### ⚙️ Args:
     image: The input image.
     output_file_path: The path of the output file.
     format: Bitmap format that 
