@@ -8,6 +8,7 @@ Python script that's mostly used for image manipulation
 | 3.10           | ✅ Supported      |
 | 3.9            | ✅ Supported      |
 | 3.8            | ⚙️ Best effort    |
+| =<3.7          | ❌ Not Supported  |
 
 ## `> Image // Contributing`
 
