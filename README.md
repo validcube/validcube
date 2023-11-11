@@ -30,7 +30,7 @@ ReVanced Manager is an application written in Dart (Flutter). This application i
   https://github.com/ReVanced/revanced-branding @ GPL-3.0
 
   Image Manipulation Tool:
-  https://github.com/validcube/validcube/tree/main/scripts @ None
+  https://github.com/validcube/validcube/tree/main/scripts @ MIT
   
   Hacktoberfest 2023 Badge:
   https://github.com/ziadOUA/m3-Markdown-Badges @ MIT
