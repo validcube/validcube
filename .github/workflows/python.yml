@@ -23,18 +23,18 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ ubuntu-latest ]
-        supported-python-version: [ "3.10", "3.11", "3.12" ]
-        best_effort-python-version: [ "3.9" ]
+        os: [ ubuntu-22.04 ]
+        supported-python-version: [ "3.10.13", "3.11.7", "3.12.1" ]
+        best_effort-python-version: [ "3.9.18" ]
         
     runs-on: ${{ matrix.os }}
         
     steps:
     - name: Checkout the repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  # 4.1.1
         
     - name: Set up Python ${{ matrix.supported-python-version }}
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c  # 5.0.0
       with:
         python-version: ${{ matrix.supported-python-version }}
         allow-prereleases: true
@@ -47,28 +47,11 @@ jobs:
         
     - name: Lint check with Ruff
       run: |
-        if [ ${{ matrix.supported-python-version }} == 3.7 ]; then
-          ruff check $(git ls-files '*.py') --target-version=py37
-        fi
-        if [ ${{ matrix.supported-python-version }} == 3.8 ]; then
-          ruff check $(git ls-files '*.py') --target-version=py38
-        fi
-        if [ ${{ matrix.supported-python-version }} == 3.9 ]; then
-          ruff check $(git ls-files '*.py') --target-version=py39
-        fi
-        if [ ${{ matrix.supported-python-version }} == 3.10 ]; then
-          ruff check $(git ls-files '*.py') --target-version=py310
-        fi
-        if [ ${{ matrix.supported-python-version }} == 3.11 ]; then
-          ruff check $(git ls-files '*.py') --target-version=py311
-        fi
-        if [ ${{ matrix.supported-python-version }} == 3.12 ]; then
-          ruff check $(git ls-files '*.py') --target-version=py312
-        fi
+        ruff check $(git ls-files '*.py')
 
     - name: Static analysis with MyPy
       run: |
-        mypy $(git ls-files '*.py') --python-version ${{ matrix.supported-python-version }}
+        mypy $(git ls-files '*.py')
 
     - name: Testing with Pytest
       run: |
@@ -81,18 +64,18 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ ubuntu-latest ]
-        base-python-version: [ "3.11" ]
-        best_effort-python-version: [ "3.9" ]
+        os: [ ubuntu-22.04 ]
+        base-python-version: [ "3.11.7" ]
+        best_effort-python-version: [ "3.9.18" ]
         
     runs-on: ${{ matrix.os }}
         
     steps:
     - name: Checkout the repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  # 4.1.1
         
     - name: Set up Python ${{ matrix.base-python-version }}
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c  # 5.0.0
       with:
         python-version: ${{ matrix.base-python-version }}
         allow-prereleases: true
