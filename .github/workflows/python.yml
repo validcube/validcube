@@ -18,7 +18,7 @@ permissions:
 
 jobs:
   analyse-supported:
-    name: testing on supported versions
+    name: testing on versions (supported)
     continue-on-error: true  
     strategy:
       fail-fast: false
@@ -59,7 +59,7 @@ jobs:
         pytest
 
   analyse-best-effort:
-    name: testing on legacy/best-effort status
+    name: testing on versions (best-effort)
     continue-on-error: true  
     strategy:
       fail-fast: false
@@ -74,7 +74,7 @@ jobs:
       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  # v4.1.1
         
     - name: Set up Python ${{ matrix.legacy-python-version }}
-      uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c  v# 5.0.0
+      uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c  # v5.0.0
       with:
         python-version: ${{ matrix.legacy-python-version }}
         allow-prereleases: true
