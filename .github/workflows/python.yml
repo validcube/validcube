@@ -88,4 +88,4 @@ jobs:
 
     - name: Static analysis with MyPy
       run: |
-        mypy $(git ls-files '*.py') --python-version ${{ matrix.best_effort-python-version }}
+        mypy $(git ls-files '*.py') --python-version 3.9  # TODO: dynamically use value from matrix
