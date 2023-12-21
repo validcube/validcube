@@ -23,18 +23,18 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ ubuntu-22.04 ]
-        supported-python-version: [ "3.10.13", "3.11.7", "3.12.1" ]
-        best_effort-python-version: [ "3.9.18" ]
+        os: [ "ubuntu-22.04", "macos-12", "windows-2022" ]
+        supported-python-version: [ "3.10.13", "3.11.7", "3.12.1", "3.9.18" ]
+        best_effort-python-version: [ "3.8.18" ]
         
     runs-on: ${{ matrix.os }}
         
     steps:
     - name: Checkout the repository
-      uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  # 4.1.1
+      uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  # v4.1.1
         
     - name: Set up Python ${{ matrix.supported-python-version }}
-      uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c  # 5.0.0
+      uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c  # v5.0.0
       with:
         python-version: ${{ matrix.supported-python-version }}
         allow-prereleases: true
@@ -58,34 +58,42 @@ jobs:
         cd scripts
         pytest
 
-  analyse-best_effort:
-    name: static analysis on best effort
+  analyse-best-effort:
+    name: testing on legacy/best-effort status
     continue-on-error: true  
     strategy:
       fail-fast: false
       matrix:
-        os: [ ubuntu-22.04 ]
-        base-python-version: [ "3.11.7" ]
-        best_effort-python-version: [ "3.9.18" ]
+        os: [ "ubuntu-22.04", "macos-12", "windows-2022" ]
+        legacy-python-version: [ "3.8.18" ]
         
     runs-on: ${{ matrix.os }}
         
     steps:
     - name: Checkout the repository
-      uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  # 4.1.1
+      uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  # v4.1.1
         
-    - name: Set up Python ${{ matrix.base-python-version }}
-      uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c  # 5.0.0
+    - name: Set up Python ${{ matrix.legacy-python-version }}
+      uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c  v# 5.0.0
       with:
-        python-version: ${{ matrix.base-python-version }}
+        python-version: ${{ matrix.legacy-python-version }}
         allow-prereleases: true
-        
+
     - name: Install dependencies
-      run: |
+      run: | # $(git ls-files '*dev-requirements.txt') # $(git ls-files '*requirements.txt')
         python -m pip install --upgrade pip
         pip install -r scripts/requirements.txt 
         pip install -r scripts/dev-requirements.txt
+        
+    - name: Lint check with Ruff
+      run: |
+        ruff check $(git ls-files '*.py')
 
     - name: Static analysis with MyPy
       run: |
-        mypy $(git ls-files '*.py') --python-version 3.9  # TODO: dynamically use value from matrix
+        mypy $(git ls-files '*.py')
+
+    - name: Testing with Pytest
+      run: |
+        cd scripts
+        pytest
