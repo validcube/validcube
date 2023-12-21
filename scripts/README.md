@@ -34,5 +34,5 @@ Developing the script:
 
 Here are some tip when contributing:
 * All commits must follows the [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) guidelines.
-* [Signing commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) are highly recommended.
+* [Signing commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) are **required**.
 * This repository follows slight variation of [Google's Python style](https://google.github.io/styleguide/pyguide.html) guide **but not strictly enforced**.
