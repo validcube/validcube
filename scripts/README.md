@@ -1,20 +1,21 @@
 # `> Image_manipulation`
 Python script that's mostly used for image manipulation
 
-| Python version | Support status    |
-| -------------- | ----------------- |
-| 3.12           | ✅ Supported      |
-| 3.11           | ✅ Supported      |
-| 3.10           | ✅ Supported      |
-| 3.9            | ✅ Supported      |
-| 3.8            | ⚙️ Best effort    |
-| =<3.7          | ❌ Not Supported  |
+| Python version | Support status                               |
+| -------------- | -------------------------------------------- |
+| 3.13           | ❌ Best effort if the dependency is ready    |
+| 3.12           | ✅ Supported                                 |
+| 3.11           | ✅ Supported                                 |
+| 3.10           | ✅ Supported                                 |
+| 3.9            | ✅ Supported                                 |
+| 3.8            | ⚙️ Best effort                               |
+| =<3.7          | ❌ Not Supported                             |
 
 ## `> Image // Contributing`
 
 Thanks for consider contributing.
 > [!IMPORTANT]  
-> This guide assume that you already installed Python 3.10 or higher and pytest.
+> This guide assume that you already installed Python 3.9 or higher and pytest.
 
 Running the script:
 1. Clone the repository: `git@github.com:validcube/validcube.git && cd scripts`
