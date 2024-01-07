@@ -4,10 +4,27 @@
 </picture>
 
 ### 👋 Hello there!
-My name is Pun, I'm a student from Thailand, and maintainer of open source software. I have quite decent experiences in mobile application development using Kotlin & Dart. I loves to write random program, and contribute to open source projects during my free time. I sometimes create program for my personal use, although most of them aren't production-ready.
+My name is **Pun**; I'm a student and a maintainer of open-source software from Thailand.
+
+I started my programming journey when I was 11 with [Lua](https://www.lua.org/), and as time went on, I began to explore more programming languages. Suddenly, I started doing [Python](https://www.python.org/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), then [Dart](https://dart.dev/) and [Kotlin](https://kotlinlang.org/).
+
+I have gathered decent experience in writing 🚀 general-purpose programs using Python and experience in 📱 mobile application development using Kotlin & Dart. 
+
+Most of the time, I love to write 🎲 random programs—and, at the same time, contribute to 🌐 open-source projects.
+
+I'm open to exploring more programming languages like C, Svelte and Rust to expand my skill set.
+
+✨ Fun fact about me:
+* I love to support older versions—I often find myself supporting a Python project down to Python 3.8;
+* I love to express my creativity by drawing or illustrating (see my profile and [assets](https://github.com/validcube/validcube/tree/main/assets) used in Pull Request and banner!);
+* I'm introverted, so I often find myself getting random anxiety attacks when I speak to someone.
+This isn't a fun fact about me (this is probably every programmer ever): *why do manual work for 5 hours when you can spend 11 hours writing a program to do it for you*.
+
+
+Also, don't be fooled by my English; I occasionally write the most incomprehensible sentences.
 
 ### ReVanced Manager (Dart)
-ReVanced Manager is an application written in Dart (Flutter). This application is mainly used for patching and/or modifying your favorite applications like YouTube, YouTube Music, Instagram, and many more! (see https://revanced.app/patches)
+ReVanced Manager is an application written in [Dart](https://dart.dev/) with [Flutter](https://flutter.dev/). This application is mainly used for patching and/or modifying your favorite applications like YouTube, YouTube Music, Instagram, and many more! (see https://revanced.app/patches)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets\ReVancedManager\default-dark.webp">
