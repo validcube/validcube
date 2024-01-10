@@ -18,8 +18,8 @@ I'm open to exploring more programming languages like C, Svelte and Rust to expa
 * I love to support older versions—I often find myself supporting a Python project down to Python 3.8;
 * I love to express my creativity by drawing or illustrating (see my profile and [assets](https://github.com/validcube/validcube/tree/main/assets) used in Pull Request and banner!);
 * I'm introverted, so I often find myself getting random anxiety attacks when I speak to someone.
-This isn't a fun fact about me (this is probably every programmer ever): *why do manual work for 5 hours when you can spend 11 hours writing a program to do it for you*.
 
+This isn't a fun fact about me (this is probably every programmer ever): *why do manual work for 5 hours when you can spend 11 hours writing a program to do it for you*.
 
 Also, don't be fooled by my English; I occasionally write the most incomprehensible sentences.
 
