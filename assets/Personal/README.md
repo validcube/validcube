@@ -5,4 +5,7 @@ Here are all the available Personal's banner. the following table below this mes
 | --------------- | ------- | ----------- | -------------- |
 | `default-light` | Default | Default     | Default Theme  |
 
-<!-- Auto-generated | pE v0.9.0 -->
+## Notice
+This work is protected by the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. You can read the license [here](LICENSE.md).
+
+<!-- Auto-generated | pE v(next) -->
