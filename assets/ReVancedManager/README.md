@@ -24,4 +24,4 @@ Here are all the available ReVanced Manager's banner. the following table below 
 | `valentine-light`         | July 10th     | Personal          | 💖 Valentine's Day                   |
 | `valentine-light-compose` | July 10th     | Reserved          | Compose variant of `valentine-light` |
 
-<!-- Auto-generated | pE v(next) -->
+<!-- Auto-generated | pE v0.9.0 -->
