@@ -1,7 +1,7 @@
 # Security Policy
 
-While Image Manipulation may not be associated with any 
-security vulnerability ever:tm:, we encouraged everyone 
+While Image Manipulation may not be associated with any
+security vulnerability ever:tm:, we encouraged everyone
 to report them as soon as possible.
 
 ## Supported Versions
@@ -27,14 +27,14 @@ Right now, the latest version are only supported.
 
 Consider contacting me via email.
 
-* pun.butrach+security@gmail.com
-* pun.experiment+security@gmail.com
+- pun.butrach+security@gmail.com
+- pun.experiment+security@gmail.com
 
-When reporting, please make sure to include 
+When reporting, please make sure to include
 the reproduce steps in clear and consise way as possible
 to prevent any mistake during communication.
 
-You'll receive an update when the reported vulnerability is 
+You'll receive an update when the reported vulnerability is
 accepted, declined, fixed or requested for more information.
 
 [^1]: Best effort only
