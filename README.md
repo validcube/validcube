@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets\Personal\default-light.webp">
-  <img alt="" src="assets\Personal\default-light.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="assets\Personal\valentine-light.webp">
+  <img alt="" src="assets\Personal\valentine-light.webp">
 </picture>
 
 ### 👋 Hello there!
