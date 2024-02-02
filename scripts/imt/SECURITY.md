@@ -27,8 +27,8 @@ Right now, the latest version are only supported.
 
 Consider contacting me via email.
 
-* pun.butrach@gmail.com
-* pun.experiment@gmail.com
+* pun.butrach+security@gmail.com
+* pun.experiment+security@gmail.com
 
 When reporting, please make sure to include 
 the reproduce steps in clear and consise way as possible
