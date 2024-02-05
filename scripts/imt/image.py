@@ -1,5 +1,6 @@
 import os
-from PIL import Image, ImageOps, ImageDraw, ImageFilter
+
+from PIL import Image, ImageDraw, ImageFilter, ImageOps
 
 if __name__ == "__main__":
   pass #exit()
