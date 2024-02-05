@@ -25,4 +25,4 @@ Insert the image you wish to iron out those pesky corner to 48px, and run it aga
 | 🥞    | Success    |
 
 ## `> Image // Contributing`
-Interested in contributing? See the [contributing guide](/docs/CONTRIBUTING.md)
+Interested in contributing? See the [contributing guide](docs/CONTRIBUTING.md)

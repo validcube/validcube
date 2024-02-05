@@ -10,14 +10,16 @@ import convert_now
 
 class TestDeveloperExperience:
   # Variable
-  input_folder = "test/assets"
-  output_folder = "test/export"
+  root = "test/"
+  input_folder = f"{root}/assets"
+  output_folder = f"{root}/export"
   radius = 48
   # Test assets
-  test_picture = "test/test_input.png"
+  literal_test_picture = "test_input.png"
+  test_picture = f"{root}/{literal_test_picture}"
   # Assertion
-  test_picture_png = os.path.join(output_folder, f"{test_picture.strip('.png')}.png")
-  test_picture_webp = os.path.join(output_folder, f"{test_picture.strip('.png')}.webp")
+  test_picture_png = os.path.join(output_folder, f"{literal_test_picture.strip('.png')}.png")
+  test_picture_webp = os.path.join(output_folder, f"{literal_test_picture.strip('.png')}.webp")
 
   def test_create_folder(self):
     if os.path.exists(self.input_folder) or os.path.exists(self.output_folder):

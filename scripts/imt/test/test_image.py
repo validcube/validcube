@@ -6,7 +6,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), os.pardir))
 import image # noqa: E402
 
 class TestAddMargin:
-  input_file_path = "test_input.png"
+  input_file_path = "test/test_input.png"
   img = Image.open(input_file_path)
   # Check if the output image has the correct size
 
@@ -46,7 +46,7 @@ class TestAddMargin:
 
 
 class TestRoundCorner:
-  input_file_path = "test_input.png"
+  input_file_path = "test/test_input.png"
   img = Image.open(input_file_path)
   # Check if the output image has the correct size
 
@@ -77,17 +77,18 @@ class TestRoundCorner:
 
 
 def test_export_to_webp():
-  if os.path.exists("test_output.webp"):
-    os.remove("test_output.webp")
+  if os.path.exists("test/raw/test_output.webp"):
+    os.remove("test/raw/test_output.webp")
 
-  input_file_path = "test_input.png"
+  input_file_path = "test/test_input.png"
 
   img = Image.open(input_file_path)
-  image.export_to_webp(img, "test_output.webp")
+  if not os.path.exists("test/raw"):
+    os.makedirs('test/raw')
+  image.export_to_webp(img, "test/raw/test_output.webp")
 
   # Check if the output file exists
-  assert os.path.exists("test_output.webp")
-  os.remove("test_output.webp")
+  assert os.path.exists("test/raw/test_output.webp")
 
 
 if __name__ == "__main__":
