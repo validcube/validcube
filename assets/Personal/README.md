@@ -6,7 +6,14 @@ Here are all the available Personal's banner. the following table below this mes
 | `default-light`   | Default       | Default     | Default Theme      |
 | `valentine-light` | February 14th | Holiday     | 💖 Valentine's Day |
 
+## Dyanmic Banner
+These banners will use the theme based on event by date.
+
+| 📃 Filename             | 🗓️ Date | 📔 Category | 📜 Description                     |
+| ----------------------- | ------- | ----------- | ---------------------------------- |
+| `dynamic-light`         | Dynamic | Dynamic     | Dynamic Theme                      |
+
 ## Notice
 This work is protected by the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. You can read the license [here](LICENSE.md).
 
-<!-- Auto-generated | pE v0.9.11 -->
+<!-- Auto-generated | pE v0.10.0 -->

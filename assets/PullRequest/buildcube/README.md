@@ -5,4 +5,4 @@ Here are all the available BuildCube's banner. the following table below this me
 | --------------- | ------- | ----------- | -------------- |
 | `default-light` | None | Default     | Default Theme  |
 
-<!-- Auto-generated | pE v0.9.11 -->
+<!-- Auto-generated | pE v0.10.0 -->

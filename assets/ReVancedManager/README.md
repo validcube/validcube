@@ -24,4 +24,14 @@ Here are all the available ReVanced Manager's banner. the following table below 
 | `valentine-light`         | July 10th     | Personal          | 💖 Valentine's Day                   |
 | `valentine-light-compose` | July 10th     | Reserved          | Compose variant of `valentine-light` |
 
-<!-- Auto-generated | pE v0.9.11 -->
+## Dyanmic Banner
+These banners will use the theme based on event by date.
+
+| 📃 Filename             | 🗓️ Date | 📔 Category | 📜 Description                     |
+| ----------------------- | ------- | ----------- | ---------------------------------- |
+| `dynamic-dark`          | Dynamic | Dynamic     | Dynamic Theme                      |
+| `dynamic-dark-compose`  | Dynamic | Dynamic     | Compose variant of `dynamic-dark`  |
+| `dynamic-light`         | Dynamic | Dynamic     | Dynamic Theme                      |
+| `dynamic-light-compose` | Dynamic | Dynamic     | Compose variant of `dynamic-light` |
+
+<!-- Auto-generated | pE v0.10.0 -->
