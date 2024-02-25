@@ -1,13 +1,13 @@
-name: "✨ Python"
+name: ✨ Python
 
-on: 
+on:
   workflow_dispatch:
   pull_request:
     paths:
       - "**.py"
-      - "requirements.txt"
-      - "dev-requirements.txt"
-      - ".github/workflows/python.yml"
+      - requirements.txt
+      - dev-requirements.txt
+      - .github/workflows/python.yml
   push:
     paths:
       - "**.py"
@@ -19,90 +19,91 @@ permissions:
 jobs:
   analyse-supported:
     name: testing on supported versions
-    continue-on-error: true  
+    continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
-        os: [ ubuntu-latest ]
-        supported-python-version: [ "3.10", "3.11", "3.12" ]
-        best_effort-python-version: [ "3.9" ]
-        
+        os: [ubuntu-latest]
+        supported-python-version: ["3.10", "3.11", "3.12"]
+        best_effort-python-version: ["3.9"]
+
     runs-on: ${{ matrix.os }}
-        
+
     steps:
-    - name: Checkout the repository
-      uses: actions/checkout@v4
-        
-    - name: Set up Python ${{ matrix.supported-python-version }}
-      uses: actions/setup-python@v4
-      with:
-        python-version: ${{ matrix.supported-python-version }}
-        allow-prereleases: true
-        
-    - name: Install dependencies
-      run: | # $(git ls-files '*dev-requirements.txt') # $(git ls-files '*requirements.txt')
-        python -m pip install --upgrade pip
-        pip install -r scripts/imt/requirements.txt 
-        pip install -r scripts/imt/dev-requirements.txt
-        
-    - name: Lint check with Ruff
-      run: |
-        if [ ${{ matrix.supported-python-version }} == 3.7 ]; then
-          ruff check $(git ls-files '*.py') --target-version=py37
-        fi
-        if [ ${{ matrix.supported-python-version }} == 3.8 ]; then
-          ruff check $(git ls-files '*.py') --target-version=py38
-        fi
-        if [ ${{ matrix.supported-python-version }} == 3.9 ]; then
-          ruff check $(git ls-files '*.py') --target-version=py39
-        fi
-        if [ ${{ matrix.supported-python-version }} == 3.10 ]; then
-          ruff check $(git ls-files '*.py') --target-version=py310
-        fi
-        if [ ${{ matrix.supported-python-version }} == 3.11 ]; then
-          ruff check $(git ls-files '*.py') --target-version=py311
-        fi
-        if [ ${{ matrix.supported-python-version }} == 3.12 ]; then
-          ruff check $(git ls-files '*.py') --target-version=py312
-        fi
+      - name: Checkout the repository
+        uses: actions/checkout@v4
 
-    - name: Static analysis with MyPy
-      run: |
-        mypy $(git ls-files '*.py') --python-version ${{ matrix.supported-python-version }}
+      - name: Set up Python ${{ matrix.supported-python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.supported-python-version }}
+          allow-prereleases: true
 
-    - name: Testing with Pytest
-      run: |
-        cd scripts
-        pytest
+      - name: Install dependencies
+        run:
+          | # $(git ls-files '*dev-requirements.txt') # $(git ls-files '*requirements.txt')
+          python -m pip install --upgrade pip
+          pip install -r scripts/imt/requirements.txt
+          pip install -r scripts/imt/dev-requirements.txt
+
+      - name: Lint check with Ruff
+        run: |
+          if [ ${{ matrix.supported-python-version }} == 3.7 ]; then
+            ruff check $(git ls-files '*.py') --target-version=py37
+          fi
+          if [ ${{ matrix.supported-python-version }} == 3.8 ]; then
+            ruff check $(git ls-files '*.py') --target-version=py38
+          fi
+          if [ ${{ matrix.supported-python-version }} == 3.9 ]; then
+            ruff check $(git ls-files '*.py') --target-version=py39
+          fi
+          if [ ${{ matrix.supported-python-version }} == 3.10 ]; then
+            ruff check $(git ls-files '*.py') --target-version=py310
+          fi
+          if [ ${{ matrix.supported-python-version }} == 3.11 ]; then
+            ruff check $(git ls-files '*.py') --target-version=py311
+          fi
+          if [ ${{ matrix.supported-python-version }} == 3.12 ]; then
+            ruff check $(git ls-files '*.py') --target-version=py312
+          fi
+
+      - name: Static analysis with MyPy
+        run: |
+          mypy $(git ls-files '*.py') --python-version ${{ matrix.supported-python-version }}
+
+      - name: Testing with Pytest
+        run: |
+          cd scripts
+          pytest
 
   analyse-best_effort:
     name: static analysis on best effort
-    continue-on-error: true  
+    continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
-        os: [ ubuntu-latest ]
-        base-python-version: [ "3.11" ]
-        best_effort-python-version: [ "3.9" ]
-        
-    runs-on: ${{ matrix.os }}
-        
-    steps:
-    - name: Checkout the repository
-      uses: actions/checkout@v4
-        
-    - name: Set up Python ${{ matrix.base-python-version }}
-      uses: actions/setup-python@v4
-      with:
-        python-version: ${{ matrix.base-python-version }}
-        allow-prereleases: true
-        
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r scripts/imt/requirements.txt
-        pip install -r scripts/imt/dev-requirements.txt
+        os: [ubuntu-latest]
+        base-python-version: ["3.11"]
+        best_effort-python-version: ["3.9"]
 
-    - name: Static analysis with MyPy
-      run: |
-        mypy $(git ls-files '*.py') --python-version ${{ matrix.best_effort-python-version }}
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.base-python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.base-python-version }}
+          allow-prereleases: true
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/imt/requirements.txt
+          pip install -r scripts/imt/dev-requirements.txt
+
+      - name: Static analysis with MyPy
+        run: |
+          mypy $(git ls-files '*.py') --python-version ${{ matrix.best_effort-python-version }}

@@ -32,7 +32,7 @@ def add_margin(
 
 def round_corners(
   img:            Image.Image, 
-  corner_radius:  int
+  corner_radius:  float
 ) -> Image.Image:
   """Add rounded corners to the input image.
 

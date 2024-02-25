@@ -17,3 +17,11 @@ Return assets based on event
 ## `> Holiday // Usage`
 Run `holiday.py` to return the asset name
 
+### `> Holiday // Arguments`
+* Theme (-t, --theme): Theme of the wallpaper in string (default, valentine)
+* Mode (-m --mode): Mode or Variant of the wallpaper in string (light, dark, special)
+* Source (-s, --source): Source destination in string
+* Destination (-d --destination): Target destination in string
+
+## `> Holiday // Contributing`
+Interested in contributing? See the [contributing guide](docs/CONTRIBUTING.md)
