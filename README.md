@@ -4,7 +4,7 @@
 </picture>
 
 ### 👋 Hello there
-My name is **Pun**; I'm a student and a maintainer of open-source software from Thailand.
+My name is **Pun**; I'm a student and a maintainer of open-source software from Thailand... **I'm actually not eligible for work, I'm not 18 yet...**
 
 I started my programming journey when I was 11 with [Lua](https://www.lua.org/), and as time went on, I began to explore more programming languages. Suddenly, I started doing [Python](https://www.python.org/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), then [Dart](https://dart.dev/) and [Kotlin](https://kotlinlang.org/).
 
