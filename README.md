@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets\Personal\valentine-light.webp">
-  <img alt="" src="assets\Personal\valentine-light.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="assets\Personal\default-light.webp">
+  <img alt="" src="assets\Personal\default-light.webp">
 </picture>
 
 ### 👋 Hello there
@@ -27,8 +27,8 @@ Also, don't be fooled by my English; I occasionally write the most incomprehensi
 ReVanced Manager is an application written in [Dart](https://dart.dev/) with [Flutter](https://flutter.dev/). This application is mainly used for patching and/or modifying your favorite applications like YouTube, YouTube Music, Instagram, and many more! (see https://revanced.app/patches)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets\ReVancedManager\valentine-dark.webp">
-  <img alt="" src="assets\ReVancedManager\valentine-light.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="assets\ReVancedManager\default-dark.webp">
+  <img alt="" src="assets\ReVancedManager\default-light.webp">
 </picture>
 
 ## 💖 Participated in
