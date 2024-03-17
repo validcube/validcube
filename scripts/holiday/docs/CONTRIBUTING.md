@@ -1,8 +1,9 @@
 # `> Holiday // Contributing`
 Thanks you for your interest in contributing. Please check out the [Code of Conduct](CODE_OF_CONDUCT.md) before contributing, thank you!
 
-> [!IMPORTANT]  
-> This guide assume that you already installed Python 3.9 or higher.
+> [!IMPORTANT]
+> This guide assume that you already installed Python 3.6 or higher.
+> It is highly recommended to use Python version equal to or higher than the [minimum supported Python version](https://www.python.org/downloads/).
 
 Running the script:
 
@@ -16,7 +17,7 @@ Developing the script:
 3. Static Analysis: `mypy .`
 4. Test the script: `pytest`
 
-> [!WARNING]  
+> [!WARNING]
 > Ruff is a linter made using Rust, it's super fast and doesn't output anything if everything passes, don't fall for it!
 
 Here are some tip when contributing:
@@ -24,4 +25,3 @@ Here are some tip when contributing:
 - All commits must follows the [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) guidelines.
 - [Signing commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) are highly recommended.
 - This repository follows slight variation of [Google's Python style](https://google.github.io/styleguide/pyguide.html) guide **but not strictly enforced**.
-

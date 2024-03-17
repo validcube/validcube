@@ -3,13 +3,13 @@ from datetime import datetime
 
 # Format: Month, Day, Assetclass
 Event = {
-    'NEW_YEAR': (1, 1, None),
-    'VALENTINE': (2, 14, 'valentine'),
-    'APRIL_FOOL': (4, 1, None),
-    'SPECIAL': (7, 10, 'valentine'),
-    'BIRTHDAY': (10, 29, None),
-    'CHRISTMAS': (12, 25, None),
-    'BEFORE_NEW_YEAR': (12, 31, None)
+  'NEW_YEAR': (1, 1, 'newyear'),
+  'VALENTINE': (2, 14, 'valentine'),
+  'APRIL_FOOL': (4, 1, None),
+  'SPECIAL': (7, 10, 'valentine'),
+  'BIRTHDAY': (10, 29, None),
+  'CHRISTMAS': (12, 25, None),
+  'BEFORE_NEW_YEAR': (12, 31, 'newyear')
 }
 
 
@@ -50,14 +50,22 @@ def dynamic_setter(theme: str or list[str],  # type: ignore
       print("🥞 File copied and overwritten successfully.")
     except OSError as e:
       print(f"🔥 Operation {source_file} -> {destination_file}\n"
-            f"File can't be overwritten: {e}")
+            f"🔥 File can't be overwritten: {e}")
       return 1
 
   return 0
 
 
 def main(time: datetime) -> str:
-  """Finds the current event and returns the appropriate theme."""
+
+  """Finds the current event and returns the appropriate theme.
+
+  #### ⚙️ Args:
+    datetime(time): Current or specfic time
+
+  #### ↪️ Returns:
+    Supported theme's name in string or else "default"
+  """
   today = (time.month, time.day)
   found_match = False
   for event_name, event_date in Event.items():
@@ -75,11 +83,11 @@ def main(time: datetime) -> str:
 if __name__ == '__main__':
   import argparse
 
-  parser = argparse.ArgumentParser(description='Dynamically set wallpaper based on date and event.')
-  parser.add_argument('-t', '--theme', type=str, nargs='+', default=main(datetime.now()), help='Theme of the wallpaper to be copied.')
-  parser.add_argument('-m', '--mode', type=str, nargs='+', default='light', help='Mode of the wallpaper to be copied.')
-  parser.add_argument('-s', '--source', type=str, default='', help='Path to the directory where the source file is located.')
-  parser.add_argument('-d', '--destination', type=str, default='', help='Path to the directory where the file should be copied.')
+  parser = argparse.ArgumentParser(description='⛅ Dynamically set wallpaper based on date and event.')
+  parser.add_argument('-t', '--theme', type=str, nargs='+', default=main(datetime.now()), help='🎨 Theme of the wallpaper to be copied.')
+  parser.add_argument('-m', '--mode', type=str, nargs='+', default='light', help='⛅ Mode of the wallpaper to be copied.')
+  parser.add_argument('-s', '--source', type=str, default='', help='📂 Path to the directory where the source file is located.')
+  parser.add_argument('-d', '--destination', type=str, default='', help='📂 Path to the directory where the file should be copied.')
 
   args = parser.parse_args()
 
