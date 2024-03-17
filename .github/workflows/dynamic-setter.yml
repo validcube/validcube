@@ -63,7 +63,7 @@ jobs:
           git config --global user.name "CollisionBot"
           git config user.signingkey 13D0B11B631937DE
           git add assets/**/dynamic-*.webp
-          git commit -S -m "🔧 Update Dynamic Theme"
+          git commit -S -m "🔧 Update Dynamic Theme" --allow-empty
           git push
         env:
           GPG_KEY_PASSPHRASE: ${{ secrets.COLLISIONBOT_PASS }}
