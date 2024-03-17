@@ -1,0 +1,85 @@
+name: ✨ Holiday Python Test
+
+on:
+  # trunk-ignore(yamllint/empty-values)
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - scripts/holiday/**.py
+      - scripts/holiday/requirements.txt
+      - scripts/holiday/dev-requirements.txt
+      - .github/workflows/holiday-python.yml
+  push:
+    paths:
+      - scripts/holiday/**.py
+      - scripts/holiday/requirements.txt
+      - scripts/holiday/dev-requirements.txt
+      - .github/workflows/holiday-python.yml
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  analyse-supported:
+    name: testing on supported versions
+    continue-on-error: true
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        supported-python-version: ["3.6", "3.7", "3.8", "3.9","3.10", "3.11", "3.12", "3.13"]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python ${{ matrix.supported-python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.supported-python-version }}
+          allow-prereleases: true
+
+      - name: Install dependencies
+        run:
+          |
+          python -m pip install --upgrade pip
+          pip install -r scripts/holiday/dev-requirements.txt
+
+      - name: Lint check with Ruff
+        run: |
+          if [ ${{ matrix.supported-python-version }} <= 3.6 ]; then
+            echo Skipped
+          fi
+          if [ ${{ matrix.supported-python-version }} == 3.7 ]; then
+            ruff check $(git ls-files 'scripts/holiday/*.py') --target-version=py37
+          fi
+          if [ ${{ matrix.supported-python-version }} == 3.8 ]; then
+            ruff check $(git ls-files 'scripts/holiday/*.py') --target-version=py38
+          fi
+          if [ ${{ matrix.supported-python-version }} == 3.9 ]; then
+            ruff check $(git ls-files 'scripts/holiday/*.py') --target-version=py39
+          fi
+          if [ ${{ matrix.supported-python-version }} == 3.10 ]; then
+            ruff check $(git ls-files 'scripts/holiday/*.py') --target-version=py310
+          fi
+          if [ ${{ matrix.supported-python-version }} == 3.11 ]; then
+            ruff check $(git ls-files 'scripts/holiday/*.py') --target-version=py311
+          fi
+          if [ ${{ matrix.supported-python-version }} == 3.12 ]; then
+            ruff check $(git ls-files 'scripts/holiday/*.py') --target-version=py312
+          fi
+          if [ ${{ matrix.supported-python-version }} == 3.13 ]; then
+            ruff check $(git ls-files 'scripts/holiday/*.py') --target-version=py313
+          fi
+
+      - name: Static analysis with MyPy
+        run: |
+          mypy $(git ls-files 'scripts/holiday/*.py') --python-version ${{ matrix.supported-python-version }}
+
+      - name: Testing with Pytest
+        run: |
+          cd scripts/holiday
+          pytest

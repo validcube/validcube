@@ -1,0 +1,70 @@
+name: ✨ Holiday
+
+on:
+  # trunk-ignore(yamllint/empty-values)
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - assets/**.webp
+      - scripts/holiday/**.py
+      - .github/workflows/dynamic-setter.yml
+  push:
+    paths:
+      - assets/**.webp
+      - scripts/holiday/**.py
+      - .github/workflows/dynamic-setter.yml
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  run-holiday:
+    name: update dynamic theme
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        python-version: ["3.12"]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Run Holiday
+        run: |
+          python scripts/holiday/holiday.py -m dark -s assets/Personal/ -d assets/Personal/
+          python scripts/holiday/holiday.py -m light -s assets/Personal/ -d assets/Personal/
+
+          python scripts/holiday/holiday.py -m dark -s assets/ReVancedManager/ -d assets/ReVancedManager/
+          python scripts/holiday/holiday.py -m light -s assets/ReVancedManager/ -d assets/ReVancedManager/
+
+          python scripts/holiday/holiday.py -m dark -s assets/WolframAlphaDart/ -d assets/WolframAlphaDart/
+          python scripts/holiday/holiday.py -m light -s assets/WolframAlphaDart/ -d assets/WolframAlphaDart/
+
+      - name: Import GPG key
+        run: |
+          echo "$GPG_KEY" | gpg --batch --import
+        env:
+          GPG_KEY: ${{ secrets.COLLISIONBOT_SIGN }}
+
+      - name: Push
+        run: |
+          echo '#!/bin/bash' >> $GITHUB_WORKSPACE/gpg.sh
+          echo 'gpg --batch --pinentry-mode=loopback --passphrase $GPG_KEY_PASSPHRASE $@' >> $GITHUB_WORKSPACE/gpg.sh
+          chmod +x $GITHUB_WORKSPACE/gpg.sh
+          git config gpg.program $GITHUB_WORKSPACE/gpg.sh
+          git config --global user.email "pun.experiment@gmail.com"
+          git config --global user.name "CollisionBot"
+          git config user.signingkey 13D0B11B631937DE
+          git add assets/**/dynamic-*.webp
+          git commit -S -m "🔧 Update Dynamic Theme"
+          git push
+        env:
+          GPG_KEY_PASSPHRASE: ${{ secrets.COLLISIONBOT_PASS }}
