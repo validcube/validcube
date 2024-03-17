@@ -3,7 +3,7 @@ Return assets based on event
 
 | Python version | Support status               |
 | -------------- | ---------------------------- |
-| 3.13[1^]       | :white_check_mark: Supported |
+| 3.13[^1]       | :white_check_mark: Supported |
 | 3.12           | :white_check_mark: Supported |
 | 3.11           | :white_check_mark: Supported |
 | 3.10           | :white_check_mark: Supported |
@@ -27,4 +27,4 @@ Run `holiday.py` to return the asset name
 ## `> Holiday // Contributing`
 Interested in contributing? See the [contributing guide](docs/CONTRIBUTING.md)
 
-[1^]: Holiday was tested on Python 3.13.0a4 with no issues.
+[^1]: Holiday was tested on Python 3.13.0a4 with no issues.
