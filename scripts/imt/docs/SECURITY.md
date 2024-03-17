@@ -1,11 +1,9 @@
 # Security Policy
-
 While Image Manipulation may not be associated with any
 security vulnerability ever:tm:, we encouraged everyone
 to report them as soon as possible.
 
 ## Supported Versions
-
 Right now, the latest version are only supported.
 
 | Version | Supported          |
@@ -13,7 +11,6 @@ Right now, the latest version are only supported.
 | Latest  | :white_check_mark: |
 
 ## Supported Python Versions
-
 | Version | Supported              |
 | ------- | ---------------------- |
 | 3.12    | :white_check_mark:     |
@@ -24,7 +21,6 @@ Right now, the latest version are only supported.
 | 3.7=<   | :x:                    |
 
 ## Reporting a Vulnerability
-
 Consider contacting me via email.
 
 - pun.butrach+security@gmail.com

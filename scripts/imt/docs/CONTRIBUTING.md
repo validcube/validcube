@@ -1,7 +1,7 @@
 # `> Image // Contributing`
 Thanks you for your interest in contributing. Please check out the [Code of Conduct](CODE_OF_CONDUCT.md) before contributing, thank you!
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > This guide assume that you already installed Python 3.9 or higher.
 
 Running the script:
@@ -18,7 +18,7 @@ Developing the script:
 4. Static Analysis: `mypy .`
 5. Test the script: `pytest`
 
-> [!WARNING]  
+> [!WARNING]
 > Ruff is a linter made using Rust, it's super fast and doesn't output anything if everything passes, don't fall for it!
 
 Here are some tip when contributing:
