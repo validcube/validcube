@@ -3,6 +3,8 @@ name: ✨ Holiday
 on:
   # trunk-ignore(yamllint/empty-values)
   workflow_dispatch:
+  schedule:
+    - cron: 0 0 1 * *
   pull_request:
     paths:
       - assets/**.webp
