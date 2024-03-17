@@ -16,14 +16,13 @@ on:
       - scripts/imt/dev-requirements.txt
       - .github/workflows/imt-python.yml
 
-permissions:
-  contents: read
-  pull-requests: read
-
 jobs:
   analyse-supported:
     name: testing on supported versions
     continue-on-error: true
+    permissions:
+      contents: read
+      pull-requests: read
     strategy:
       fail-fast: false
       matrix:
@@ -85,6 +84,9 @@ jobs:
   analyse-best_effort:
     name: static analysis on best effort
     continue-on-error: true
+    permissions:
+      contents: read
+      pull-requests: read
     strategy:
       fail-fast: false
       matrix:

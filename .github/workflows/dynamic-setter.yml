@@ -14,13 +14,11 @@ on:
       - scripts/holiday/**.py
       - .github/workflows/dynamic-setter.yml
 
-permissions:
-  contents: read
-  pull-requests: read
-
 jobs:
   run-holiday:
     name: update dynamic theme
+    permissions:
+      contents: write
     strategy:
       matrix:
         os: [ubuntu-latest]
