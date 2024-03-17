@@ -33,5 +33,3 @@ These banners will use the theme based on event by date.
 | `dynamic-dark-compose`  | Dynamic | Dynamic     | Compose variant of `dynamic-dark`  |
 | `dynamic-light`         | Dynamic | Dynamic     | Dynamic Theme                      |
 | `dynamic-light-compose` | Dynamic | Dynamic     | Compose variant of `dynamic-light` |
-
-<!-- Auto-generated | pE v0.10.0 -->

@@ -4,5 +4,3 @@ Here are all the available Security Notice's banner. the following table below t
 | 📃 Filename             | 🗓️ Date | 📔 Category | 📜 Description                                 |
 | ----------------------- | ------- | ----------- | ---------------------------------------------- |
 | `default-light-warning` | None    | Generic     | Any types of security warning (Low - Critical) |
-
-<!-- Auto-generated | pE v0.10.0 -->
