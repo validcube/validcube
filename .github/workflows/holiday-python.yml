@@ -1,4 +1,4 @@
-name: ✨ Holiday Python Test
+name: ✨ Holiday // Test
 
 on:
   workflow_dispatch: {}

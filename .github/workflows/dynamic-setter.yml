@@ -1,4 +1,4 @@
-name: ✨ Holiday
+name: ✨ Holiday // Set dynamic
 
 on:
   workflow_dispatch: {}

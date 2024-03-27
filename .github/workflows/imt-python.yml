@@ -1,4 +1,4 @@
-name: ✨ IMT Python Test
+name: ✨ IMT // Test
 
 on:
   workflow_dispatch: {}
