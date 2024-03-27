@@ -1,4 +1,5 @@
-name: Pull Request
+name: 🔎 Trunk CI // Check
+
 on: [pull_request]
 
 concurrency:

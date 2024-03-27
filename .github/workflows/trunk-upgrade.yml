@@ -1,4 +1,4 @@
-name: Nightly
+name: 🔎 Trunk CI // Upgrade
 
 on:
   workflow_dispatch: {}
