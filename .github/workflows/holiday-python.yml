@@ -1,8 +1,7 @@
 name: ✨ Holiday Python Test
 
 on:
-  # trunk-ignore(yamllint/empty-values)
-  workflow_dispatch:
+  workflow_dispatch: {}
   pull_request:
     paths:
       - scripts/holiday/**.py
@@ -28,7 +27,8 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest]
-        supported-python-version: ["3.6", "3.7", "3.8", "3.9","3.10", "3.11", "3.12", "3.13"]
+        supported-python-version:
+          ["3.6", "3.7", "3.8", "3.9", "3.10", "3.11", "3.12", "3.13"]
 
     runs-on: ${{ matrix.os }}
 
@@ -43,8 +43,7 @@ jobs:
           allow-prereleases: true
 
       - name: Install dependencies
-        run:
-          |
+        run: |
           python -m pip install --upgrade pip
           pip install -r scripts/holiday/dev-requirements.txt
 

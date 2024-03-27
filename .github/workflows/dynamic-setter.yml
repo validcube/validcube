@@ -1,8 +1,7 @@
 name: ✨ Holiday
 
 on:
-  # trunk-ignore(yamllint/empty-values)
-  workflow_dispatch:
+  workflow_dispatch: {}
   schedule:
     - cron: 0 0 1 * *
   pull_request:
@@ -15,6 +14,8 @@ on:
       - assets/**.webp
       - scripts/holiday/**.py
       - .github/workflows/dynamic-setter.yml
+
+permissions: read-all
 
 jobs:
   run-holiday:

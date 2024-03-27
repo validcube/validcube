@@ -1,9 +1,12 @@
 name: 👷 Update Contribution Metrics
+
 on:
-  # trunk-ignore(yamllint/empty-values)
-  workflow_dispatch:
+  workflow_dispatch: {}
   schedule: [{ cron: 0 0 * * * }]
   push: { branches: [main] }
+
+permissions: read-all
+
 jobs:
   github-actions:
     name: 🪸 Update Contribution Metrics - GitHub Actions
