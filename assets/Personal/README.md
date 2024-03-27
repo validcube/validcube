@@ -7,6 +7,8 @@ Here are all the available Personal's banner. the following table below this mes
 | `default-dark`    | Default       | Default     | Default Theme      |
 | `valentine-light` | February 14th | Holiday     | 💖 Valentine's Day |
 | `valentine-dark`  | February 14th | Holiday     | 💖 Valentine's Day |
+| `halloween-light` | October       | Holiday     | 👻 Star...! That's it! |
+| `halloween-dark` | October       | Holiday     | 👻 Star...! That's it! |
 
 ## Dyanmic Banner
 These banners will use the theme based on event by date.
