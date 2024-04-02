@@ -13,8 +13,8 @@ Event = {
 }
 
 
-def dynamic_setter(theme: str | list[str],
-                   mode: str | list[str],
+def dynamic_setter(theme: str or list[str],
+                   mode: str or list[str],
                    source_path: str,
                    destination_path: str) -> int:
   """Copies and overwrites a file based on a dynamic theme and mode.
