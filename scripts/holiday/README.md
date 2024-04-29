@@ -27,4 +27,4 @@ Run `holiday.py` to return the asset name
 ## `> Holiday // Contributing`
 Interested in contributing? See the [contributing guide](docs/CONTRIBUTING.md)
 
-[^1]: Holiday was tested on Python 3.13.0a4 with no issues.
+[^1]: Holiday was tested on Python 3.13.0a6 with no issues.
