@@ -1,10 +1,10 @@
 # Assets
 This directory contains all the assets used in decorating the markdown files or Pull Request/Issue.
 
-| 📁 Folder | 🗓️ Revision Date | 📜 Description               |
-| --------- | ---------------- | ---------------------------- |
+| 📁 Folder | 🗓️ Revision Date | 📜 Description                        |
+| --------- | ---------------- | ------------------------------------- |
 | `v1`      | Feburary, 2023   | Playful; Variant of Material Design 3 |
-| `v2`      | January, 2024    | Wavy; Material Design 3            |
+| `v2`      | January, 2024    | Wavy; Material Design 3               |
 
 ## Notice
 
