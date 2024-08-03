@@ -1,7 +1,7 @@
 <!-- trunk-ignore-all(markdownlint/MD041) -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets\Personal\dynamic-dark.webp">
-  <img alt="" src="assets\Personal\dynamic-light.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="assets\v2\Personal\dynamic-dark.webp">
+  <img alt="" src="assets\v2\Personal\dynamic-light.webp">
 </picture>
 
 ### 👋 Hello there
@@ -28,8 +28,8 @@ Also, don't be fooled by my English; I occasionally write the most incomprehensi
 ReVanced Manager is an application written in [Dart](https://dart.dev/) with [Flutter](https://flutter.dev/). This application is mainly used for patching and/or modifying your favorite applications like YouTube, YouTube Music, Instagram, and many more! (see https://revanced.app/patches)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets\ReVancedManager\dynamic-dark.webp">
-  <img alt="" src="assets\ReVancedManager\dynamic-light.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="assets\v2\ReVancedManager\dynamic-dark.webp">
+  <img alt="" src="assets\v2\ReVancedManager\dynamic-light.webp">
 </picture>
 
 ## 💖 Participated in
