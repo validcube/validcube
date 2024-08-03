@@ -3,6 +3,9 @@ This directory contains all the assets used in decorating the markdown files or 
 
 ## Notice
 
+> [!IMPORTANT]
+> Starting August 2024, all assets will be relocated to the `v2` folder
+
 > [!CAUTION]
 > Please check the license provided in each directory before using the assets.
 
