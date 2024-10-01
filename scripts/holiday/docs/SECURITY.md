@@ -11,6 +11,7 @@ Right now, the latest version are only supported.
 | Latest  | :white_check_mark: |
 
 ## Supported Python Versions
+
 | Python version | Support status               |
 | -------------- | ---------------------------- |
 | 3.13[1^]       | :white_check_mark: Supported |
