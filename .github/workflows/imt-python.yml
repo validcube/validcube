@@ -74,6 +74,9 @@ jobs:
 
       - name: Static analysis with MyPy
         run: |
+          if [ ${{ matrix.supported-python-version }} <= 3.7 ]; then
+            echo Skipped
+          fi
           mypy $(git ls-files 'scripts/imt/*.py') --python-version ${{ matrix.supported-python-version }}
 
       - name: Testing with Pytest
@@ -114,4 +117,7 @@ jobs:
 
       - name: Static analysis with MyPy
         run: |
+          if [ ${{ matrix.best_effort-python-version }} <= 3.7 ]; then
+            echo Skipped
+          fi
           mypy $(git ls-files 'scripts/imt/*.py) --python-version ${{ matrix.best_effort-python-version }}
