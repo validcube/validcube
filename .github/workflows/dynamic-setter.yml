@@ -42,11 +42,15 @@ jobs:
         run: |
           python scripts/holiday/holiday.py -m dark -s assets/Personal/ -d assets/Personal/
           python scripts/holiday/holiday.py -m light -s assets/Personal/ -d assets/Personal/
-
           python scripts/holiday/holiday.py -m dark -s assets/ReVancedManager/ -d assets/ReVancedManager/
           python scripts/holiday/holiday.py -m light -s assets/ReVancedManager/ -d assets/ReVancedManager/
-
           python scripts/holiday/holiday.py -m light -s assets/WolframAlphaDart/ -d assets/WolframAlphaDart/
+
+          python scripts/holiday/holiday.py -m dark -s assets/v2/Personal/ -d assets/v2/Personal/
+          python scripts/holiday/holiday.py -m light -s assets/v2/Personal/ -d assets/v2/Personal/
+          python scripts/holiday/holiday.py -m dark -s assets/v2/ReVancedManager/ -d assets/v2/ReVancedManager/
+          python scripts/holiday/holiday.py -m light -s assets/v2/ReVancedManager/ -d assets/v2/ReVancedManager/
+          python scripts/holiday/holiday.py -m light -s assets/v2/WolframAlphaDart/ -d assets/v2/WolframAlphaDart/
 
       - name: Import GPG key
         run: |
