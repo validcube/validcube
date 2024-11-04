@@ -1,36 +1,31 @@
 <!-- trunk-ignore-all(markdownlint/MD041) -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets\v2\Personal\dynamic-dark.webp">
-  <img alt="" src="assets\v2\Personal\dynamic-light.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="assets\v3\Personal\valentine-dark.webp">
+  <img alt="Hi!" src="assets\v3\Personal\valentine-light.webp">
 </picture>
 
-### 👋 Hello there
-My name is **Pun**; I'm a student and a maintainer of open-source software from Thailand...
+👋 Hello! My name is **Pun**, but I go by the name of **NullCube** on the internet. I'm a student from Thailand and an aspiring Open-Source software maintainer.
 
-I started my programming journey when I was 11 with [Lua](https://www.lua.org/), and as time went on, I began to explore more programming languages. Suddenly, I started doing [Python](https://www.python.org/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), then [Dart](https://dart.dev/) and [Kotlin](https://kotlinlang.org/).
+I started my programming journey when I was 11 with [Lua](https://www.lua.org/) on Roblox, and as time passed, I began to explore more programming languages. I started doing [Python](https://www.python.org/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), then [Dart](https://dart.dev/) and [Kotlin](https://kotlinlang.org/).
 
-I have gathered decent experience in writing 🚀 general-purpose programs using Python and experience in 📱 mobile application development using Kotlin & Dart. 
+My interests and expertise are vastly programming and art-related stuff like drawing (really badly), designing, writing general-purpose programs using Python and doing mobile application development using Kotlin & Dart. Most of my free time is spent on drawing, writing random programs—and, at the same time, contributing to Open-Source Projects for free if I'm bored I listen to music *or* might break applications/websites for fun.
 
-Most of the time, I love to write 🎲 random programs—and, at the same time, contribute to 🌐 open-source projects.
-
-I'm open to exploring more programming languages like C, Svelte and Rust to expand my skill set.
+I'm open to learning other programming languages like Svelte and Rust to expand my knowledge.
 
 ✨ Fun fact about me:
-* I love to support older versions—I often find myself supporting a Python project down to Python 3.6 (why?);
-* I love to express my creativity by drawing or illustrating (see my profile and [assets](https://github.com/validcube/validcube/tree/main/assets) used in Pull Request and banner!);
-* My brain love hate talking to people, I often find myself getting random anxiety attacks when I speak to someone... whoops
+- This README is refreshed every year with new decorations and variations!
+- Not really a fun fact, don't be fooled by my English; I occasionally write the most incomprehensible sentences.
+- I love to express my creativity by drawing or illustrating (see my profile and [assets](https://github.com/validcube/validcube/tree/main/assets) used in Pull Request and banner!);
+- *why do manual work for 5 hours when you can spend 11 hours writing a program to do it for you*.
 
-This isn't a fun fact about me (this is probably every programmer ever): *why do manual work for 5 hours when you can spend 11 hours writing a program to do it for you*.
-
-Also, don't be fooled by my English; I occasionally write the most incomprehensible sentences.
-
-### ReVanced Manager (Dart)
-ReVanced Manager is an application written in [Dart](https://dart.dev/) with [Flutter](https://flutter.dev/). This application is mainly used for patching and/or modifying your favorite applications like YouTube, YouTube Music, Instagram, and many more! (see https://revanced.app/patches)
+Below here is a list of projects that I maintain or frequently contribute to.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets\v2\ReVancedManager\dynamic-dark.webp">
-  <img alt="" src="assets\v2\ReVancedManager\dynamic-light.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="assets\v3\ReVanced\Manager\valentine-dark.webp">
+  <img alt="ReVanced Manager" src="assets\v3\ReVanced\Manager\valentine-light.webp">
 </picture>
+
+ReVanced Manager is an application written in [Dart](https://dart.dev/) using [Flutter](https://flutter.dev/) Framework. This application patches and modifies your favourite applications like YouTube, Facebook, Instagram, Reddit, and many more! (see https://revanced.app/patches for a list of available patches)
 
 ## 💖 Participated in
 <picture>
