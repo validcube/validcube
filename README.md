@@ -4,6 +4,8 @@
   <img alt="Hi!" src="assets\v3\Personal\valentine-light.png">
 </picture>
 
+<br></br>
+
 👋 Hello! My name is **Pun**, but I go by the name of **NullCube** on the internet. I'm a student from Thailand and an aspiring Open-Source software maintainer.
 
 I started my programming journey when I was 11 with [Lua](https://www.lua.org/) on Roblox, and as time passed, I began to explore more programming languages. I started doing [Python](https://www.python.org/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), then [Dart](https://dart.dev/) and [Kotlin](https://kotlinlang.org/).
@@ -20,10 +22,14 @@ I'm open to learning other programming languages like Svelte and Rust to expand 
 
 Below here is a list of projects that I maintain or frequently contribute to.
 
+<br></br>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets\v3\ReVanced\Manager\valentine-dark.png">
   <img alt="ReVanced Manager" src="assets\v3\ReVanced\Manager\valentine-light.png">
 </picture>
+
+<br></br>
 
 ReVanced Manager is an application written in [Dart](https://dart.dev/) using [Flutter](https://flutter.dev/) Framework. This application patches and modifies your favourite applications like YouTube, Facebook, Instagram, Reddit, and many more! (see https://revanced.app/patches for a list of available patches)
 
