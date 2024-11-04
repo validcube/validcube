@@ -1,7 +1,7 @@
 <!-- trunk-ignore-all(markdownlint/MD041) -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets\v3\Personal\valentine-dark.webp">
-  <img alt="Hi!" src="assets\v3\Personal\valentine-light.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="assets\v3\Personal\valentine-dark.png">
+  <img alt="Hi!" src="assets\v3\Personal\valentine-light.png">
 </picture>
 
 👋 Hello! My name is **Pun**, but I go by the name of **NullCube** on the internet. I'm a student from Thailand and an aspiring Open-Source software maintainer.
@@ -21,8 +21,8 @@ I'm open to learning other programming languages like Svelte and Rust to expand 
 Below here is a list of projects that I maintain or frequently contribute to.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets\v3\ReVanced\Manager\valentine-dark.webp">
-  <img alt="ReVanced Manager" src="assets\v3\ReVanced\Manager\valentine-light.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="assets\v3\ReVanced\Manager\valentine-dark.png">
+  <img alt="ReVanced Manager" src="assets\v3\ReVanced\Manager\valentine-light.png">
 </picture>
 
 ReVanced Manager is an application written in [Dart](https://dart.dev/) using [Flutter](https://flutter.dev/) Framework. This application patches and modifies your favourite applications like YouTube, Facebook, Instagram, Reddit, and many more! (see https://revanced.app/patches for a list of available patches)
