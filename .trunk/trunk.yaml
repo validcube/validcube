@@ -21,17 +21,17 @@ lint:
     - black
   enabled:
     - taplo@0.9.3
-    - actionlint@1.7.4
-    - checkov@3.2.340
+    - actionlint@1.7.5
+    - checkov@3.2.345
     - git-diff-check
     - isort@5.13.2
     - markdownlint@0.43.0
-    - osv-scanner@1.9.1
+    - osv-scanner@1.9.2
     - oxipng@9.1.3
     - prettier@3.4.2
-    - ruff@0.8.3
-    - trivy@0.58.0
-    - trufflehog@3.87.0
+    - ruff@0.8.4
+    - trivy@0.58.1
+    - trufflehog@3.88.0
     - yamllint@1.35.1
 actions:
   disabled:
