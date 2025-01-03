@@ -22,7 +22,7 @@ lint:
   enabled:
     - taplo@0.9.3
     - actionlint@1.7.5
-    - checkov@3.2.345
+    - checkov@3.2.346
     - git-diff-check
     - isort@5.13.2
     - markdownlint@0.43.0
