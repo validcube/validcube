@@ -52,9 +52,7 @@ jobs:
           python scripts/holiday/holiday.py -m light -s assets/v2/ReVancedManager/ -d assets/v2/ReVancedManager/
           python scripts/holiday/holiday.py -m light -s assets/v2/WolframAlphaDart/ -d assets/v2/WolframAlphaDart/
 
-          python scripts/holiday/holiday.py -m dark -s assets/v3/Personal/ -d assets/v3/Personal/
           python scripts/holiday/holiday.py -m light -s assets/v3/Personal/ -d assets/v3/Personal/
-          python scripts/holiday/holiday.py -m dark -s assets/v3/ReVanced/Manager/ -d assets/v3/ReVanced/Manager/
           python scripts/holiday/holiday.py -m light -s assets/v3/ReVanced/Manager/ -d assets/v3/ReVanced/Manager/
 
       - name: Import GPG key
