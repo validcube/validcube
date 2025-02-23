@@ -39,6 +39,9 @@ def dynamic_setter(theme, mode, source_path, destination_path):
             pass
 
         try:
+            if not os.path.exists(source_file):
+                print(f"🪢 Destination File {destination_file} does not exist. Creating a new empty file and linking it.")
+                open(destination_file, 'a').close()
             os.link(source_file, destination_file)
             print("🥞 File copied and overwritten successfully.")
         except OSError as e:
