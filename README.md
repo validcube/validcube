@@ -1,14 +1,4 @@
-<!-- trunk-ignore-all(markdownlint/MD041) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets\v3\Personal\valentine-dark.png">
-  <img alt="Hi!" src="assets\v3\Personal\valentine-light.png">
-</picture>
-
-<br></br>
-
 👋 Hello! My name is **Pun**, but I go by the name of **NullCube** on the internet. I'm a student from Thailand and an aspiring Open-Source software maintainer.
-
-I started my programming journey when I was 11 with [Lua](https://www.lua.org/) on Roblox, and as time passed, I began to explore more programming languages. I started doing [Python](https://www.python.org/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), then [Dart](https://dart.dev/) and [Kotlin](https://kotlinlang.org/).
 
 My interests and expertise are vastly programming and art-related stuff like drawing (really badly), designing, writing general-purpose programs using Python and doing mobile application development using Kotlin & Dart. Most of my free time is spent on drawing, writing random programs—and, at the same time, contributing to Open-Source Projects for free if I'm bored I listen to music *or* might break applications/websites for fun.
 
@@ -22,7 +12,9 @@ I'm open to learning other programming languages like Svelte and Rust to expand 
 
 Below here is a list of projects that I maintain or frequently contribute to.
 
-<br></br>
+[![Lawnchair 16 Bubble](https://github.com/user-attachments/assets/8ec7527b-8778-4fc0-a256-feb55c0d4fe8)](https://github.com/LawnchairLauncher/lawnchair)
+
+Lawnchair is an simple, easy to use and beautiful Android launcher application based on the Android Open Source Project with design following the Material Design 3 Expressive with many customisability options to choose from.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets\v3\ReVanced\Manager\valentine-dark.png">
