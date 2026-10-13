@@ -1,52 +1,30 @@
-👋 Hello! My name is **Pun**, but I go by the name of **NullCube** on the internet. I'm a student from Thailand and an aspiring Open-Source software maintainer.
+# 👋 สวัสดี
 
-My interests and expertise are vastly programming and art-related stuff like drawing (really badly), designing, writing general-purpose programs using Python and doing mobile application development using Kotlin & Dart. Most of my free time is spent on drawing, writing random programs—and, at the same time, contributing to Open-Source Projects for free if I'm bored I listen to music *or* might break applications/websites for fun.
+My name is Pun Butrach[^1]. I'm Thai and based in Pathum Thani, Thailand. I turn code and design into wonders you're seeing here on my website.
 
-I'm open to learning other programming languages like Svelte and Rust to expand my knowledge.
+In my spare time I enjoy watching pointless videos, reading about news, tinkering with software, exploring arts & illustrations and sometimes making them. <!-- Put link -->
 
-✨ Fun fact about me:
-- This README is refreshed every year with new decorations and variations!
-- Not really a fun fact, don't be fooled by my English; I occasionally write the most incomprehensible sentences.
-- I love to express my creativity by drawing or illustrating (see my profile and [assets](https://github.com/validcube/validcube/tree/main/assets) used in Pull Request and banner!);
-- *why do manual work for 5 hours when you can spend 11 hours writing a program to do it for you*.
+## My Background
 
-Below here is a list of projects that I maintain or frequently contribute to.
+I'm a student in Thailand. I help maintain open source projects such as [Lawnchair] and [ReVanced], 
+I discovered a security vulnerability that was assigned a CVE identifier. 
+Right now I'm exploring Artificial Intelligence and Machine Learning.
 
-[![Lawnchair 16 Bubble](https://github.com/user-attachments/assets/8ec7527b-8778-4fc0-a256-feb55c0d4fe8)](https://github.com/LawnchairLauncher/lawnchair)
+## My Value
 
-Lawnchair is an simple, easy to use and beautiful Android launcher application based on the Android Open Source Project with design following the Material Design 3 Expressive with many customisability options to choose from.
+I value restraint, experimentation, and observation. I like testing an idea end to end, from sketch to design to code, 
+so I can see how everything behaves together and adapt from what I see. I like cutting what's unnecessary while keeping 
+the vision's unique. Lastly, I like seeing causation and effects on the outcomes of my ideas to innovate and learn what 
+can be improve later on.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets\v3\ReVanced\Manager\valentine-dark.png">
-  <img alt="ReVanced Manager" src="assets\v3\ReVanced\Manager\valentine-light.png">
-</picture>
+## Let's get in touch
 
-<br></br>
+Let's create new things together, 
 
-ReVanced Manager is an application written in [Dart](https://dart.dev/) using [Flutter](https://flutter.dev/) Framework. This application patches and modifies your favourite applications like YouTube, Facebook, Instagram, Reddit, and many more! (see https://revanced.app/patches for a list of available patches)
+pun.butrach@gmail.com
 
-## 💖 Participated in
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://ziadoua.github.io/m3-Markdown-Badges/badges/Hacktoberfest2023/hacktoberfest20231.svg">
-  <img alt="Hacktoberfest 2023" src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Hacktoberfest2023/hacktoberfest20233.svg">
-</picture>
+[^1]: Everyone called me Pun Butrach however my legal name is Punn Butrach.
 
-## 🥞 Miscellaneous
+[Lawnchair]: https://lawnchair.app
 
-<details>
-  
-  <summary>❤️ Special Thanks</summary>
-
-  ReVanced Branding:
-  https://github.com/ReVanced/revanced-branding @ GPL-3.0
-
-  Image Manipulation Tool:
-  https://github.com/validcube/validcube/tree/main/scripts/imt @ MIT
-
-  Dynamic Theme Setter:
-  https://github.com/validcube/validcube/tree/main/scripts/holiday @ MIT
-  
-  Hacktoberfest 2023 Badge:
-  https://github.com/ziadOUA/m3-Markdown-Badges @ MIT
-
-</details>
+[ReVanced]: https://revanced.app
