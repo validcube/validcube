@@ -1,6 +1,6 @@
 # 👋 สวัสดี
 
-My name is Pun Butrach[^1]. I'm Thai and based in Pathum Thani, Thailand. I turn code and design into wonders you're seeing here on my website.
+My name is Pun Butrach[^1]. I'm Thai and based in Pathum Thani, Thailand. I turn code and design into wonders that you see here with my work.
 
 In my spare time I enjoy watching pointless videos, reading about news, tinkering with software, exploring arts & illustrations and sometimes making them. <!-- Put link -->
 
