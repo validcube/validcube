@@ -7,7 +7,8 @@ In my spare time I enjoy watching pointless videos, reading about news, tinkerin
 ## My Background
 
 I'm a student in Thailand. I help maintain open source projects such as [Lawnchair] and [ReVanced], 
-I discovered a security vulnerability that was assigned a CVE identifier. 
+I discovered a security vulnerability that was assigned a [CVE] identifier. 
+
 Right now I'm exploring Artificial Intelligence and Machine Learning.
 
 ## My Value
@@ -23,8 +24,8 @@ Let's create new things together,
 
 pun.butrach@gmail.com
 
-[^1]: Everyone called me Pun Butrach however my legal name is Punn Butrach.
+[^1]: Everyone called me Pun however my legal first name is Punn.
 
 [Lawnchair]: https://lawnchair.app
-
 [ReVanced]: https://revanced.app
+[CVE]: https://www.cve.org/CVERecord?id=CVE-2023-52075
